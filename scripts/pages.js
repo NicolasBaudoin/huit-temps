@@ -12,7 +12,7 @@ const MAST = (h1, sub) => `<header class="mast"><div class="mast-in">
   <h1>${h1}</h1>
   <div class="issue"><span>Huit Temps</span><span>${sub}</span></div>
 </div></header>`;
-const FOOT = `<footer><p><a href="index.html">S'abonner gratuitement</a> · <a href="agenda.html">L'agenda</a> · <a href="trainings.html">Trainings libres</a> · <a href="https://ko-fi.com/huittemps" target="_blank" rel="noopener">Soutenir sur Ko-fi</a> · <a href="mentions-legales.html">Mentions légales</a></p></footer>`;
+const FOOT = `<footer><p><a href="index.html">S'abonner gratuitement</a> · <a href="agenda.html">L'agenda</a> · <a href="trainings.html">Trainings libres</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLScX4Ho4S7FMhxda1UpL8GkvDDvrCxvvpW4WfMQ2mwsQijr3yA/viewform" target="_blank" rel="noopener">Signale un événement</a> · <a href="https://ko-fi.com/huittemps" target="_blank" rel="noopener">Soutenir sur Ko-fi</a> · <a href="mentions-legales.html">Mentions légales</a></p></footer>`;
 
 function page(file, title, desc, body) {
   const head = baseHead
@@ -27,7 +27,7 @@ page("trainings.html", "Huit Temps — trainings libres", "Les trainings libres 
   MAST("Trainings<span>libres</span>", "Où s'entraîner toute l'année") + `
 <div class="wrap">
 <section class="sec">
-  <header><p>Les créneaux réguliers repérés par Huit Temps : trainings libres, jams et sessions ouvertes, ville par ville. Tu en connais un qui manque ? <a href="mailto:baudoin.nicolasg@gmail.com?subject=Huit%20Temps%20-%20training%20à%20ajouter" target="_blank" rel="noopener">Signale-le</a>.</p></header>
+  <header><p>Les créneaux réguliers repérés par Huit Temps : trainings libres, jams et sessions ouvertes, ville par ville. Tu en connais un qui manque ? <a href="https://docs.google.com/forms/d/e/1FAIpQLScX4Ho4S7FMhxda1UpL8GkvDDvrCxvvpW4WfMQ2mwsQijr3yA/viewform" target="_blank" rel="noopener">Signale-le</a>.</p></header>
   <div id="list"><p class="empty">Chargement…</p></div>
 </section>
 ${FOOT}
