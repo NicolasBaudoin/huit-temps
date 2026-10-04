@@ -1,0 +1,2 @@
+# Le calendrier doit garder ses fins de ligne CRLF (norme iCalendar)
+agenda.ics -text
