@@ -1,0 +1,383 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Huit Temps//Agenda danse//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Huit Temps · agenda danse
+X-WR-CALDESC:Battles\, stages\, auditions et spectacles repérés par Huit 
+ Temps. https://nicolasbaudoin.github.io/huit-temps/
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spectacle-sharon-eyal-delay-the-sadness-2026-10-08@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261011
+SUMMARY:🟣 Spectacle · Sharon Eyal\, « Delay the Sadness » · Saint-Ou
+ en
+DESCRIPTION:Huit danseurs\, une pièce dédiée à sa mère disparue. Puis 
+ tournée de douze dates en Île-de-France.\nLieu : Espace 1789\, Saint-Oue
+ n\, Île-de-France\nOrganisation : Cie S-E-D\nSource : https://www.offi.fr
+ /theatre/espace-1789-2188/sharon-eyal-delay-the-sadness-103636.html\nHuit 
+ Temps\, la veille danse gratuite : https://nicolasbaudoin.github.io/huit-t
+ emps/
+LOCATION:Espace 1789\, Saint-Ouen
+URL:https://www.offi.fr/theatre/espace-1789-2188/sharon-eyal-delay-the-sadn
+ ess-103636.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spectacle-chaillot-ouizguen-el-khoury-2026-10-08@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261011
+SUMMARY:🟣 Spectacle · Bouchra Ouizguen « Este Mundo » & Tania El Khou
+ ry « Choreography of State » · Paris
+DESCRIPTION:Deux pièces à Chaillot\, Théâtre national de la Danse.\nLie
+ u : Chaillot – Théâtre national de la Danse\, Paris\, Île-de-France\n
+ Organisation : Chaillot\nSource : https://www.offi.fr/theatre/theatre-nati
+ onal-de-chaillot-1752.html\nHuit Temps\, la veille danse gratuite : https:
+ //nicolasbaudoin.github.io/huit-temps/
+LOCATION:Chaillot – Théâtre national de la Danse\, Paris
+URL:https://www.offi.fr/theatre/theatre-national-de-chaillot-1752.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-battle-pro-finale-2026-10-10@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:🔴 Battle · Battle Pro\, finale internationale · Paris · 20h (
+ portes 18h30)
+DESCRIPTION:Breaking : crew vs crew\, 1vs1 kids\, 2vs2 b-boys / b-girls. Pl
+ us de 100 danseurs internationaux.\nHoraire : 20h (portes 18h30)\nLieu : T
+ héâtre du Châtelet\, Paris\, Île-de-France\nPrix : 5 à 35 €\nOrgani
+ sation : Battle Pro\nSource : https://www.paris.fr/evenements/battle-pro-f
+ inale-internationale-2026-au-theatre-du-chatelet-123360\nHuit Temps\, la v
+ eille danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Théâtre du Châtelet\, Paris
+URL:https://www.paris.fr/evenements/battle-pro-finale-internationale-2026-a
+ u-theatre-du-chatelet-123360
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-breaking-digital-battle-2026-10-10@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:🔴 Battle · Breaking Digital Battle · Ambarès-et-Lagrave · 14
+ h30
+DESCRIPTION:Battle de breaking avec scénographie vidéo\, jury national et
+  deux MC.\nHoraire : 14h30\nLieu : Pôle culturel Évasion\, Ambarès-et-L
+ agrave\, Nouvelle-Aquitaine\nPrix : Gratuit\nOrganisation : Les Associés 
+ Crew\nSource : https://www.spectable.com/ambares-et-lagrave-33440/agenda-c
+ ulturel/danse/breaking-digital-battle/814820\nHuit Temps\, la veille danse
+  gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Pôle culturel Évasion\, Ambarès-et-Lagrave
+URL:https://www.spectable.com/ambares-et-lagrave-33440/agenda-culturel/dans
+ e/breaking-digital-battle/814820
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spectacle-opera-paris-manon-2026-09-28@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261031
+SUMMARY:🟣 Spectacle · « Manon »\, Ballet de l'Opéra de Paris · Pari
+ s
+DESCRIPTION:Le ballet de MacMillan à l'affiche jusqu'au 30 octobre.\nLieu 
+ : Opéra de Paris\, Paris\, Île-de-France\nOrganisation : Opéra national
+  de Paris\nSource : https://www.offi.fr/artiste/ballet-de-lopera-national-
+ de-paris-235511.html\nHuit Temps\, la veille danse gratuite : https://nico
+ lasbaudoin.github.io/huit-temps/
+LOCATION:Opéra de Paris\, Paris
+URL:https://www.offi.fr/artiste/ballet-de-lopera-national-de-paris-235511.h
+ tml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spectacle-opera-paris-soiree-3-pieces-2026-10-11@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261108
+SUMMARY:🟣 Spectacle · Soirée trois pièces\, Ballet de l'Opéra de Par
+ is · Paris
+DESCRIPTION:Trois pièces\, dont deux entrent au répertoire du Ballet.\nLi
+ eu : Opéra de Paris\, Paris\, Île-de-France\nOrganisation : Opéra natio
+ nal de Paris\nSource : https://www.offi.fr/artiste/ballet-de-lopera-nation
+ al-de-paris-235511.html\nHuit Temps\, la veille danse gratuite : https://n
+ icolasbaudoin.github.io/huit-temps/
+LOCATION:Opéra de Paris\, Paris
+URL:https://www.offi.fr/artiste/ballet-de-lopera-national-de-paris-235511.h
+ tml
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-breakin-battle-3-2026-10-17@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:🔴 Battle · Break'in Battle #3 · Pleyben · 20h30
+DESCRIPTION:Battle de breaking en arène\, CultureS Hip Hop Festival\, jury
+  national.\nHoraire : 20h30\nLieu : Salle Arvest\, Pleyben\, Bretagne\nPri
+ x : 10 € / 8 €\nOrganisation : CultureS Hip Hop Festival\nSource : htt
+ ps://www.jds.fr/spectacles/break-in-battle-3-1694822_A\nHuit Temps\, la ve
+ ille danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Salle Arvest\, Pleyben
+URL:https://www.jds.fr/spectacles/break-in-battle-3-1694822_A
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stage-cameron-tweed-2026-10-17@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:🔵 Stage · Stage de claquettes avec Cameron Tweed · Chasseneuil
+ -du-Poitou
+DESCRIPTION:Team GB\, cinq fois champion du monde de tap.\nLieu : Futuropol
+ is 4\, Chasseneuil-du-Poitou\, Nouvelle-Aquitaine\nPrix : 22 € le cours\
+ , 105 € les 7\nOrganisation : Pictap Dance\nSource : https://www.helloas
+ so.com/associations/pictap-dance/evenements/stage-cameron-tweed-17-et-18-o
+ ctobre-2026\nHuit Temps\, la veille danse gratuite : https://nicolasbaudoi
+ n.github.io/huit-temps/
+LOCATION:Futuropolis 4\, Chasseneuil-du-Poitou
+URL:https://www.helloasso.com/associations/pictap-dance/evenements/stage-ca
+ meron-tweed-17-et-18-octobre-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spectacle-chaillot-invite-poush-2026-10-20@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:🟣 Spectacle · Chaillot invite POUSH · Paris
+DESCRIPTION:Soirée spéciale à Chaillot.\nLieu : Chaillot – Théâtre n
+ ational de la Danse\, Paris\, Île-de-France\nOrganisation : Chaillot\nSou
+ rce : https://unidivers.fr/event/chaillot-invite-poush-chaillot-theatre-na
+ tional-de-la-danse-paris-paris-2026-10-20t2130000200/\nHuit Temps\, la vei
+ lle danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Chaillot – Théâtre national de la Danse\, Paris
+URL:https://unidivers.fr/event/chaillot-invite-poush-chaillot-theatre-natio
+ nal-de-la-danse-paris-paris-2026-10-20t2130000200/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:actu-biennale-danza-appel-creations-2026-10-20-deadline@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:⏰ Date limite · Dossiers Biennale Danza
+DESCRIPTION:Appels national et international\, sélection Wayne McGregor\, 
+ jusqu'à 30 000 € de production.\nLieu : Venise\, International\nOrganis
+ ation : La Biennale di Venezia\nDate limite : 2026-10-20 (Dossiers Biennal
+ e Danza)\nSource : https://www.labiennale.org/en/news/national-and-interna
+ tional-calls-two-new-choreographic-works-1\nHuit Temps\, la veille danse g
+ ratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Venise
+URL:https://www.labiennale.org/en/news/national-and-international-calls-two
+ -new-choreographic-works-1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-ndt2-2027-2028@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270118
+SUMMARY:🟢 Audition · Audition NDT 2\, saison 2027-28 · La Haye
+DESCRIPTION:17-22 ans\, fin de formation pro. Présélection en ligne\, ré
+ sultats le 4 décembre\, audition à La Haye.\nLieu : Nederlands Dans Thea
+ ter\, La Haye\, International\nOrganisation : Nederlands Dans Theater\nDat
+ e limite : 2026-10-18 (Candidatures NDT 2 (00h CEST))\nSource : https://ww
+ w.ndt.nl/en/meet/about/vacancies/audition-ndt2/\nHuit Temps\, la veille da
+ nse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Nederlands Dans Theater\, La Haye
+URL:https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-ndt2-2027-2028-deadline@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:⏰ Date limite · Candidatures NDT 2 (00h CEST)
+DESCRIPTION:17-22 ans\, fin de formation pro. Présélection en ligne\, ré
+ sultats le 4 décembre\, audition à La Haye.\nLieu : Nederlands Dans Thea
+ ter\, La Haye\, International\nOrganisation : Nederlands Dans Theater\nDat
+ e limite : 2026-10-18 (Candidatures NDT 2 (00h CEST))\nSource : https://ww
+ w.ndt.nl/en/meet/about/vacancies/audition-ndt2/\nHuit Temps\, la veille da
+ nse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Nederlands Dans Theater\, La Haye
+URL:https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stage-passeurs-de-danse-2026-10-23@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔵 Stage · Stage national Passeurs de danse · 8h-17h
+DESCRIPTION:Trois journées autour du contact en danse\, 8h-17h.\nHoraire :
+  8h-17h\nOrganisation : Passeurs de danse\nSource : https://www.helloasso.
+ com/associations/passeurs-de-danse/evenements/stage-national-passeurs-de-d
+ anse-2026\nHuit Temps\, la veille danse gratuite : https://nicolasbaudoin.
+ github.io/huit-temps/
+URL:https://www.helloasso.com/associations/passeurs-de-danse/evenements/sta
+ ge-national-passeurs-de-danse-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-red-bull-dance-your-style-world-final-2026-10-24@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔴 Battle · Red Bull Dance Your Style\, finale mondiale · Zuric
+ h
+DESCRIPTION:All style. Le vainqueur de la finale française représente la 
+ France.\nLieu : Zurich\, International\nOrganisation : Red Bull\nSource : 
+ https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/red-bull
+ -dance-your-style-montpellier_TFOFMALAR034V52US33/\nHuit Temps\, la veille
+  danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Zurich
+URL:https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/red-b
+ ull-dance-your-style-montpellier_TFOFMALAR034V52US33/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stage-move-centre-james-carles-2026-10-24@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔵 Stage · Stage international d'automne « Move ! »\, Centre J
+ ames Carlès · Toulouse
+DESCRIPTION:Cinq jours avec Sylvia Waters (ex-Alvin Ailey II)\, Géraldine 
+ Armstrong\, Dorian Rollin\, June Vives\, Angelo Monaco\, Iman Brooks (NYC)
+  et Filipo Franzese (Cie Akram Khan).\nLieu : Centre Chorégraphique James
+  Carlès\, Toulouse\, Occitanie\nOrganisation : Centre James Carlès\nDate
+  limite : 2026-10-11 (Code MOVE10 : −10 % sur le stage Move !)\nSource :
+  https://www.instagram.com/p/DdtGbhAFnEu/\nHuit Temps\, la veille danse gr
+ atuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Centre Chorégraphique James Carlès\, Toulouse
+URL:https://www.instagram.com/p/DdtGbhAFnEu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stage-move-centre-james-carles-2026-10-24-deadline@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:⏰ Date limite · Code MOVE10 : −10 % sur le stage Move !
+DESCRIPTION:Cinq jours avec Sylvia Waters (ex-Alvin Ailey II)\, Géraldine 
+ Armstrong\, Dorian Rollin\, June Vives\, Angelo Monaco\, Iman Brooks (NYC)
+  et Filipo Franzese (Cie Akram Khan).\nLieu : Centre Chorégraphique James
+  Carlès\, Toulouse\, Occitanie\nOrganisation : Centre James Carlès\nDate
+  limite : 2026-10-11 (Code MOVE10 : −10 % sur le stage Move !)\nSource :
+  https://www.instagram.com/p/DdtGbhAFnEu/\nHuit Temps\, la veille danse gr
+ atuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Centre Chorégraphique James Carlès\, Toulouse
+URL:https://www.instagram.com/p/DdtGbhAFnEu/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-battle-solidaire-magny-2026-11-21@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🔴 Battle · Battle hip-hop solidaire · Magny-les-Hameaux
+DESCRIPTION:Avec l'association H2G\, au profit du Secours populaire.\nLieu 
+ : Magny-les-Hameaux\, Île-de-France\nOrganisation : H2G\nSource : https:/
+ /magny-les-hameaux.fr/print/pdf/node/8148\nHuit Temps\, la veille danse gr
+ atuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Magny-les-Hameaux
+URL:https://magny-les-hameaux.fr/print/pdf/node/8148
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-une-vie-sous-les-planches-2026-12-07@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:🟢 Audition · Casting comédie musicale « Une vie sous les plan
+ ches » · Besançon · semaine du 7 décembre
+DESCRIPTION:Cie La Minucia cherche trois acteurs-chanteurs. Auditions à Be
+ sançon et Lons-le-Saunier la semaine du 7 décembre.\nHoraire : semaine d
+ u 7 décembre\nLieu : Besançon\, Bourgogne-Franche-Comté\nOrganisation :
+  Cie La Minucia\nDate limite : 2026-11-15 (Dossiers « Une vie sous les pl
+ anches »)\nSource : https://www.macommune.info/agenda/casting-comedie-mus
+ icale-une-vie-sous-les-planches/\nHuit Temps\, la veille danse gratuite : 
+ https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Besançon
+URL:https://www.macommune.info/agenda/casting-comedie-musicale-une-vie-sous
+ -les-planches/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-une-vie-sous-les-planches-2026-12-07-deadline@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:⏰ Date limite · Dossiers « Une vie sous les planches »
+DESCRIPTION:Cie La Minucia cherche trois acteurs-chanteurs. Auditions à Be
+ sançon et Lons-le-Saunier la semaine du 7 décembre.\nHoraire : semaine d
+ u 7 décembre\nLieu : Besançon\, Bourgogne-Franche-Comté\nOrganisation :
+  Cie La Minucia\nDate limite : 2026-11-15 (Dossiers « Une vie sous les pl
+ anches »)\nSource : https://www.macommune.info/agenda/casting-comedie-mus
+ icale-une-vie-sous-les-planches/\nHuit Temps\, la veille danse gratuite : 
+ https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Besançon
+URL:https://www.macommune.info/agenda/casting-comedie-musicale-une-vie-sous
+ -les-planches/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-royal-family-dance-crew-2026-11-27@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:🟢 Audition · Auditions The Royal Family Dance Crew\, line-up 20
+ 27 · Auckland
+DESCRIPTION:Le crew de Parris Goebel auditionne. Commercial / hip-hop.\nLie
+ u : The Palace Dance Studio\, Auckland\, International\nOrganisation : The
+  Royal Family\nSource : https://www.tickettailor.com/events/theroyalfamily
+ dancecreweurope/2247552\nHuit Temps\, la veille danse gratuite : https://n
+ icolasbaudoin.github.io/huit-temps/
+LOCATION:The Palace Dance Studio\, Auckland
+URL:https://www.tickettailor.com/events/theroyalfamilydancecreweurope/22475
+ 52
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-red-bull-bc-one-world-final-2026-11-29@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:🔴 Battle · Red Bull BC One World Final · Toronto
+DESCRIPTION:Le plus grand 1vs1 de breaking au monde\, 23e édition.\nLieu :
+  Mattamy Athletic Centre\, Toronto\, International\nOrganisation : Red Bul
+ l\nSource : https://www.mattamyathleticcentre.ca/events/detail/red-bull-bc
+ -one-world-final-toronto-2026\nHuit Temps\, la veille danse gratuite : htt
+ ps://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Mattamy Athletic Centre\, Toronto
+URL:https://www.mattamyathleticcentre.ca/events/detail/red-bull-bc-one-worl
+ d-final-toronto-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:training-les-douvances-mardi@huittemps
+DTSTAMP:20261004T195912Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🔵 Training · Les Douvances\, training libre · Bordeaux · 18h-
+ 21h
+DESCRIPTION:Tous styles\, tous niveaux\, playlist libre. Adhésion Fish & S
+ hoes 10 € la saison\, trainings gratuits.\nHoraire : 18h-21h\nLieu : Hal
+ le des Douves\, Bordeaux\, Nouvelle-Aquitaine\nPrix : Adhésion 10 € / s
+ aison\nOrganisation : Fish & Shoes\nSource : https://www.instagram.com/les
+ douvances/p/Dcx1XWbA6HB/\nHuit Temps\, la veille danse gratuite : https://
+ nicolasbaudoin.github.io/huit-temps/
+LOCATION:Halle des Douves\, Bordeaux
+URL:https://www.instagram.com/lesdouvances/p/Dcx1XWbA6HB/
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20270630
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
