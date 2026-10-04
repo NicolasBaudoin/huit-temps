@@ -82,7 +82,7 @@ h1{font-family:"Bowlby One",Impact,sans-serif;font-weight:400;font-size:92px;lin
 .li .t{font-family:"Barlow Condensed",sans-serif;font-size:58px;line-height:1.05;text-transform:uppercase}
 </style></head><body>
 <div class="top"><div class="kick">5 · 6 · 7 · 8</div><div class="brand">Huit<br>Temps</div></div>`;
-const FOOT = `<div class="foot"><b>Toute la semaine danse</b> · lien en bio<br>nicolasbaudoin.github.io/huit-temps</div></body></html>`;
+const FOOT = `<div class="foot"><b>Toute la semaine danse</b> · lien en bio<br>tinyurl.com/huit-temps</div></body></html>`;
 
 function storyHtml(it) {
   const c = COLOR[it.type] || "#1a1512";
