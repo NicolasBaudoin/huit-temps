@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Huit Temps n°1 — semaine du 4 octobre 2026</title>
+<meta name="description" content="Battles, auditions, stages et spectacles de la semaine du 4 octobre 2026.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Huit Temps n°1 — semaine du 4 octobre 2026">
+<meta property="og:description" content="Battles, auditions, stages et spectacles de la semaine du 4 octobre 2026.">
+<meta property="og:url" content="https://nicolasbaudoin.github.io/huit-temps/lettre.html">
+<meta property="og:image" content="https://nicolasbaudoin.github.io/huit-temps/assets/banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/avatar.png">
+<link rel="apple-touch-icon" href="assets/avatar.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Graduate&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@700&display=swap">
+<style>
+/* Layout: en tête, le mur de boomboxes du Vault (bois, brique, lumière tungstène) ; dessous, le sol blanc du studio où la lettre se lit. Couleurs du crew (rouge, vert, bleu, violet, jaune) en stickers ; dates en lettrage maillot ; encadré des dates limites en rouge comme le sol mouillé du World Jam. Thème clair unique, assumé. */
+:root{
+  color-scheme:light;
+  --vault:#17110e;        /* bois sombre / brique */
+  --tungsten:#ffb357;     /* lumière des ampoules */
+  --floor:#f2f1ee;        /* sol blanc du studio */
+  --paper:#ffffff;
+  --ink:#1a1512;
+  --muted:#6b625b;
+  --line:#dcd7d0;
+  --red:#d62d36;          /* World Jam */
+  --green:#1d9a52;        /* survêt vert */
+  --cobalt:#2a55d8;       /* casquette bleue */
+  --purple:#7a3fc6;       /* tags violets du sol */
+  --yellow:#ffd23f;       /* jaune maillot */
+  --display:"Bowlby One","Arial Black",Impact,sans-serif;
+  --jersey:"Graduate","Rockwell","Courier New",serif;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Barlow","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--floor);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;padding:0}
+.wrap{max-width:44rem;margin:0 auto;padding-inline:16px;padding-block:2.5rem 64px;display:flex;flex-direction:column;gap:3rem}
+a{color:var(--cobalt);text-decoration-thickness:2px;text-underline-offset:3px;font-weight:600}
+a:hover{color:var(--red)}
+a:focus-visible,button:focus-visible,.strip:focus-visible{outline:3px solid var(--cobalt);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;margin:0;line-height:1.05}
+
+/* Hero : le mur de boomboxes sous les ampoules */
+.mast{color:#fff;padding-inline:16px;padding-block:2.75rem 2.25rem;background-color:var(--vault);
+  background-image:
+    radial-gradient(ellipse 70% 60% at 50% -5%,rgba(255,179,87,.55),transparent 70%),
+    linear-gradient(to bottom,rgba(23,17,14,.15),rgba(23,17,14,.85) 92%),
+    radial-gradient(circle at 25% 50%,#4a403a 0 3px,#0c0907 4px 9px,#3c332d 10px 12px,transparent 13px),
+    radial-gradient(circle at 75% 50%,#4a403a 0 3px,#0c0907 4px 9px,#3c332d 10px 12px,transparent 13px),
+    linear-gradient(#2a221d 0 0);
+  background-size:100% 100%,100% 100%,58px 34px,58px 34px,58px 34px;
+  background-position:0 0,0 0,0 0,0 0,0 0;
+  box-shadow:inset 0 -6px 0 var(--red)}
+.mast-in{max-width:44rem;margin:0 auto;display:flex;flex-direction:column;gap:1.1rem}
+.kicker{font-family:var(--jersey);font-size:.95rem;letter-spacing:.3em;color:var(--tungsten)}
+.kicker b{color:#fff;font-weight:400}
+.mast h1{font-family:var(--display);font-weight:400;font-size:clamp(3.4rem,16vw,7rem);line-height:.9;text-transform:uppercase;color:#fff;
+  transform:rotate(-3deg) skewX(-6deg);transform-origin:left bottom;
+  text-shadow:.05em .05em 0 var(--ink),.08em .08em 0 var(--red);padding-block:.15em .1em}
+.mast h1 span{display:block;margin-left:.6em}
+@media (prefers-reduced-motion:no-preference){
+  .mast h1{animation:drop .7s cubic-bezier(.2,1.4,.4,1) .1s 1 both}
+  @keyframes drop{from{transform:translateY(-14px) rotate(-6deg) skewX(-6deg)}to{transform:rotate(-3deg) skewX(-6deg)}}
+}
+.issue{font-family:var(--cond);font-size:1rem;text-transform:uppercase;letter-spacing:.06em;color:#e9dfd6;display:flex;flex-wrap:wrap;gap:.2rem 1.1rem}
+.issue span:first-child{font-family:var(--jersey);color:var(--yellow);letter-spacing:.04em}
+.edito{font-size:1.18rem;line-height:1.55;max-width:38rem;margin:0;color:#f6efe8}
+.edito em{font-style:normal;font-weight:700;color:var(--tungsten)}
+
+/* Stickers de légende */
+.legend{display:flex;flex-wrap:wrap;gap:.55rem;padding-top:.3rem}
+.tag{display:inline-block;font-family:var(--cond);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;padding:.12rem .6rem;color:#fff;border:2px solid #fff;box-shadow:2px 2px 0 var(--ink)}
+.tag:nth-child(odd){transform:rotate(-2deg)} .tag:nth-child(even){transform:rotate(1.5deg)}
+.c-battle{background:var(--red)} .c-audition{background:var(--green)} .c-stage{background:var(--cobalt)} .c-show{background:var(--purple)} .c-news{background:var(--yellow);color:var(--ink)}
+
+/* Dates limites : le sol rouge mouillé du World Jam */
+.urgent{color:#fff;padding:1.4rem 1.25rem;display:flex;flex-direction:column;gap:1rem;
+  background:
+    radial-gradient(ellipse 40% 18% at 20% 12%,rgba(255,255,255,.28),transparent 70%),
+    radial-gradient(ellipse 30% 12% at 80% 85%,rgba(255,255,255,.18),transparent 70%),
+    linear-gradient(165deg,#e1373f,#a3141d);
+  box-shadow:6px 6px 0 var(--ink)}
+.urgent h2{font-family:var(--display);font-weight:400;font-size:1.7rem;text-transform:uppercase}
+.dl{display:grid;grid-template-columns:5.6rem 1fr;gap:.9rem 1rem;margin:0}
+.dl dt{font-family:var(--jersey);font-size:1.25rem;line-height:1.15;color:var(--yellow);text-transform:uppercase}
+.dl dd{margin:0;min-width:0}
+.dl dd small{display:block;color:#ffd9d5;font-size:.9rem}
+
+/* Titres de section : surligneur façon tag au sol */
+.agenda h2,.sec>header h2{font-family:var(--display);font-weight:400;font-size:clamp(1.7rem,6vw,2.2rem);text-transform:uppercase;align-self:flex-start;
+  background:linear-gradient(to top,var(--yellow) 0 38%,transparent 38%);padding-inline:.1em}
+
+/* Frise */
+.strip{overflow-x:auto;margin-top:1rem;padding-bottom:.6rem}
+.strip ol{list-style:none;margin:0;padding:0 6px 6px 0;display:flex;gap:.7rem;width:max-content}
+.strip li{width:9.6rem;background:var(--paper);border:2px solid var(--ink);border-top-width:8px;padding:.6rem .7rem;display:flex;flex-direction:column;gap:.3rem;font-size:.86rem;line-height:1.35;box-shadow:3px 3px 0 var(--line)}
+.strip li.battle{border-top-color:var(--red)}
+.strip li.audition{border-top-color:var(--green)}
+.strip li.stage{border-top-color:var(--cobalt)}
+.strip li.show{border-top-color:var(--purple)}
+.strip .d{font-family:var(--jersey);font-size:.95rem;text-transform:uppercase;line-height:1.1}
+.hint{font-family:var(--cond);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:.4rem 0 0}
+
+/* Sections */
+.sec{display:flex;flex-direction:column;gap:1.4rem}
+.sec>header{display:flex;flex-direction:column;gap:.4rem}
+.sec>header p{margin:0;color:var(--muted);font-size:.95rem}
+.sub{font-family:var(--cond);font-size:.95rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);border-bottom:2px solid var(--ink);padding-bottom:.2rem;margin-top:.4rem}
+.item{display:flex;flex-direction:column;gap:.45rem;padding-left:1rem;border-left:6px solid var(--line)}
+.item.battle{border-left-color:var(--red)}
+.item.audition{border-left-color:var(--green)}
+.item.stage{border-left-color:var(--cobalt)}
+.item.show{border-left-color:var(--purple)}
+.item.news{border-left-color:var(--yellow)}
+.item h3{font-family:var(--cond);font-weight:700;font-size:1.55rem;line-height:1.05;text-transform:uppercase;letter-spacing:.01em}
+.item p{margin:0}
+.meta{font-family:var(--cond);font-size:.98rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.1rem .9rem;font-variant-numeric:tabular-nums}
+.meta .when{color:var(--ink);font-weight:700}
+.due{font-family:var(--cond);font-weight:700;font-size:.95rem;text-transform:uppercase;letter-spacing:.03em;background:var(--red);color:#fff;padding:.08rem .55rem;align-self:flex-start;transform:rotate(-1.5deg);box-shadow:2px 2px 0 var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;font-size:.92rem}
+.copy{font-family:var(--cond);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;border:2px solid var(--ink);padding:.15rem .7rem;cursor:pointer;box-shadow:2px 2px 0 var(--yellow);transition:transform .15s}
+.copy:hover{transform:rotate(-2deg)}
+.copy.ok{background:var(--green);border-color:var(--green)}
+.empty{font-style:italic;color:var(--muted);margin:0}
+
+footer{border-top:2px solid var(--ink);padding-top:1rem;font-size:.9rem;color:var(--muted);display:flex;flex-direction:column;gap:.5rem}
+footer p{margin:0}
+footer b{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="mast-in">
+  <div class="kicker" aria-hidden="true">5 · 6 · 7 · <b>8</b></div>
+  <h1>Huit<span>Temps</span></h1>
+  <div class="issue"><span>N°1</span><span>Semaine du 4 octobre 2026</span><span>Battles · auditions · stages · scène</span></div>
+  <p class="edito">Samedi 10, le breaking tient les deux bouts de la carte : les meilleurs mondiaux au <em>Théâtre du Châtelet</em>, et un battle gratuit à vingt minutes de Bordeaux. Si tu as entre 17 et 22 ans et un dossier prêt, NDT 2 ferme ses candidatures le 18. Et Toulouse ouvre fin octobre un stage de cinq jours avec une ancienne directrice d'Alvin Ailey II.</p>
+  <div class="legend" aria-label="Légende des couleurs">
+    <span class="tag c-battle">Battle</span>
+    <span class="tag c-audition">Audition</span>
+    <span class="tag c-stage">Stage</span>
+    <span class="tag c-show">Spectacle</span>
+    <span class="tag c-news">Actu</span>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<section class="urgent" aria-labelledby="h-urgent">
+  <h2 id="h-urgent">Dates limites</h2>
+  <dl class="dl">
+    <dt>11 oct.</dt><dd>Code <b>MOVE10</b> : −10 % sur le stage d'automne du Centre James Carlès (Toulouse)<small>Stage du 24 au 28 octobre</small></dd>
+    <dt>18 oct.</dt><dd>Candidatures <b>NDT 2</b>, saison 2027-28<small>17-22 ans, fin de formation pro, clôture à 00h CEST</small></dd>
+    <dt>20 oct.</dt><dd>Appel à créations de la <b>Biennale Danza</b> de Venise<small>Sélection Wayne McGregor, jusqu'à 30 000 € de production</small></dd>
+    <dt>15 nov.</dt><dd>Dossiers pour la comédie musicale <b>« Une vie sous les planches »</b><small>Auditions à Besançon et Lons-le-Saunier en décembre</small></dd>
+  </dl>
+</section>
+
+<section class="agenda" aria-labelledby="h-agenda">
+  <h2 id="h-agenda">L'agenda</h2>
+  <div class="strip" tabindex="0" aria-label="Frise des dates, défilement horizontal">
+    <ol>
+      <li class="show"><span class="d">8-10 oct.</span>Sharon Eyal, « Delay the Sadness » · Saint-Ouen</li>
+      <li class="show"><span class="d">8-10 oct.</span>Ouizguen &amp; El Khoury · Chaillot</li>
+      <li class="battle"><span class="d">Sam. 10 oct.</span>Battle Pro · Châtelet, Paris</li>
+      <li class="battle"><span class="d">Sam. 10 oct.</span>Breaking Digital Battle · Ambarès (33)</li>
+      <li class="show"><span class="d">11 oct.-7 nov.</span>Soirée 3 pièces · Opéra de Paris</li>
+      <li class="battle"><span class="d">Sam. 17 oct.</span>Break'in Battle #3 · Pleyben (29)</li>
+      <li class="stage"><span class="d">17-18 oct.</span>Claquettes avec Cameron Tweed · Poitiers</li>
+      <li class="stage"><span class="d">23-25 oct.</span>Stage national Passeurs de danse</li>
+      <li class="battle"><span class="d">Sam. 24 oct.</span>Red Bull Dance Your Style · Zurich</li>
+      <li class="stage"><span class="d">24-28 oct.</span>Stage « Move ! » · Toulouse</li>
+      <li class="battle"><span class="d">Sam. 21 nov.</span>Battle solidaire · Magny-les-Hameaux</li>
+      <li class="audition"><span class="d">27-29 nov.</span>Royal Family Dance Crew · Auckland</li>
+      <li class="battle"><span class="d">Dim. 29 nov.</span>Red Bull BC One · Toronto</li>
+    </ol>
+  </div>
+  <p class="hint">← fais défiler →</p>
+</section>
+
+<section class="sec" aria-labelledby="h-news">
+  <header><h2 id="h-news">Actus &amp; gros noms</h2></header>
+
+  <article class="item news">
+    <h3>Sharon Eyal crée « Delay the Sadness »</h3>
+    <p>Huit danseurs, une pièce dédiée à sa mère disparue, et cette gestuelle sous tension qu'on lui connaît. Première série à l'Espace 1789, puis douze dates en Île-de-France (Saint-Quentin-en-Yvelines, Sénart, Les Gémeaux, Points communs).</p>
+    <div class="meta"><span class="when">8-10 octobre</span><span>Saint-Ouen (93)</span><span>55 min</span></div>
+    <div class="row"><a href="https://www.offi.fr/theatre/espace-1789-2188/sharon-eyal-delay-the-sadness-103636.html">Source : Offi</a><button class="copy" type="button" data-story="Sharon Eyal crée « Delay the Sadness » : 8 danseurs, une pièce pour sa mère. 8-10 oct. à l'Espace 1789 (Saint-Ouen), puis tournée en Île-de-France.">Copier pour story</button></div>
+  </article>
+
+  <article class="item news">
+    <h3>Venise cherche deux nouvelles créations</h3>
+    <p>La Biennale Danza ouvre un appel national et un appel international. Les projets retenus par Wayne McGregor reçoivent jusqu'à 30 000 € pour la production.</p>
+    <span class="due">Date limite : 20 octobre</span>
+    <div class="row"><a href="https://www.labiennale.org/en/news/national-and-international-calls-two-new-choreographic-works-1">Source : La Biennale</a><button class="copy" type="button" data-story="Chorégraphes : la Biennale Danza de Venise lance deux appels à création. Sélection Wayne McGregor, jusqu'à 30 000 €. Dossiers avant le 20 octobre.">Copier pour story</button></div>
+  </article>
+
+  <article class="item news">
+    <h3>Opéra de Paris : « Manon » et une soirée de trois pièces</h3>
+    <p>« Manon » est à l'affiche jusqu'au 30 octobre. Du 11 octobre au 7 novembre, une soirée réunit trois pièces, dont deux entrent au répertoire du Ballet. Thomas Docquir, nommé Étoile en juin, fait sa première rentrée avec le titre.</p>
+    <div class="row"><a href="https://www.offi.fr/artiste/ballet-de-lopera-national-de-paris-235511.html">Programme : Offi</a><a href="https://www.operadeparis.fr/actualites/thomas-docquir-nomme-danseur-etoile-de-lopera-national-de-paris">Nomination : Opéra de Paris</a></div>
+  </article>
+</section>
+
+<section class="sec" aria-labelledby="h-aud">
+  <header><h2 id="h-aud">Auditions &amp; castings</h2><p>France d'abord, puis l'international.</p></header>
+
+  <div class="sub">France</div>
+  <article class="item audition">
+    <h3>« Une vie sous les planches », comédie musicale</h3>
+    <p>La Cie La Minucia et Amaya Varini cherchent trois acteurs-chanteurs pour une création originale. Ouvert aux amateurs avancés comme aux pros.</p>
+    <div class="meta"><span>Bourgogne-Franche-Comté</span><span>Auditions semaine du 7 déc.</span></div>
+    <span class="due">Dossiers avant le 15 novembre</span>
+    <div class="row"><a href="https://www.macommune.info/agenda/casting-comedie-musicale-une-vie-sous-les-planches/">Source : macommune.info</a></div>
+  </article>
+  <article class="item audition">
+    <h3>Ballet de Lorraine : cellule d'insertion professionnelle</h3>
+    <p>Un contrat de onze mois au CCN pour les jeunes diplômés de 18 à 25 ans. Le calendrier est dans l'avis d'audition.</p>
+    <div class="meta"><span>Nancy, Grand Est</span><span>Saison 26-27</span></div>
+    <div class="row"><a href="https://ballet-de-lorraine.eu/media/pages/evenements/2025-2026/audition-cellule-d-insertion-professionnelle-saison-26-27/88c7e3a020-1778062857/avis-audition-cip-2026.pdf">Avis d'audition (PDF)</a></div>
+  </article>
+
+  <div class="sub">International</div>
+  <article class="item audition">
+    <h3>NDT 2, saison 2027-28</h3>
+    <p>La compagnie junior du Nederlands Dans Theater recrute. Il faut être né entre le 12/01/2004 et le 13/08/2009, et finir ou avoir fini une formation professionnelle. Présélection en ligne, résultats au plus tard le 4 décembre, audition à La Haye les 16 et 17 janvier.</p>
+    <div class="meta"><span>La Haye, Pays-Bas</span><span>Contemporain</span></div>
+    <span class="due">Candidatures avant le 18 octobre, 00h</span>
+    <div class="row"><a href="https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/">Source : NDT</a><button class="copy" type="button" data-story="17-22 ans ? NDT 2 recrute pour 2027-28. Présélection en ligne, audition à La Haye les 16-17 janvier. Candidatures avant le 18 octobre.">Copier pour story</button></div>
+  </article>
+  <article class="item audition">
+    <h3>British Festival Ballet, tournée 2026-27</h3>
+    <p>Contrats de trois à six mois entre octobre 2026 et mars 2027 pour des danseurs classiques.</p>
+    <div class="row"><a href="https://au-di-tions.com/british-festival-ballet-auditions-2026-2027-touring-season/">Source : au-di-tions.com</a></div>
+  </article>
+  <article class="item audition">
+    <h3>The Royal Family Dance Crew, line-up 2027</h3>
+    <p>Le crew de Parris Goebel auditionne à Auckland. Style commercial et hip-hop.</p>
+    <div class="meta"><span class="when">27-29 novembre</span><span>Auckland, Nouvelle-Zélande</span></div>
+    <div class="row"><a href="https://www.tickettailor.com/events/theroyalfamilydancecreweurope/2247552">Inscriptions</a></div>
+  </article>
+</section>
+
+<section class="sec" aria-labelledby="h-stage">
+  <header><h2 id="h-stage">Stages &amp; intensives</h2></header>
+
+  <article class="item stage">
+    <h3>« Move ! », le stage international d'automne du Centre James Carlès</h3>
+    <p>Cinq jours pour travailler la technique et croiser les univers. Au programme : Sylvia Waters (ancienne directrice d'Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (New York) et Filipo Franzese de la Cie Akram Khan.</p>
+    <div class="meta"><span class="when">24-28 octobre</span><span>Toulouse, Occitanie</span><span>Code MOVE10 : −10 % jusqu'au 11 oct.</span></div>
+    <div class="row"><a href="https://www.instagram.com/p/DdtGbhAFnEu/">Annonce Instagram</a><a href="https://jamescarles.com">jamescarles.com</a><button class="copy" type="button" data-story="Stage « Move ! » au Centre James Carlès, Toulouse, 24-28 oct. Avec Sylvia Waters (ex-Alvin Ailey II), Iman Brooks (NYC), Filipo Franzese (Cie Akram Khan)… −10 % avec MOVE10 jusqu'au 11 oct.">Copier pour story</button></div>
+  </article>
+  <article class="item stage">
+    <h3>Claquettes avec Cameron Tweed</h3>
+    <p>Membre de la Team GB et cinq fois champion du monde de tap, en solo comme en groupe. De 22 € le cours à 105 € les sept, plus 5 € d'adhésion pour les non-membres.</p>
+    <div class="meta"><span class="when">17-18 octobre</span><span>Chasseneuil-du-Poitou (86)</span><span>Pictap Dance</span></div>
+    <div class="row"><a href="https://www.helloasso.com/associations/pictap-dance/evenements/stage-cameron-tweed-17-et-18-octobre-2026">Inscription : HelloAsso</a></div>
+  </article>
+  <article class="item stage">
+    <h3>Stage national Passeurs de danse</h3>
+    <p>Trois journées autour du contact en danse, de 8h à 17h, pendant les vacances de la Toussaint.</p>
+    <div class="meta"><span class="when">23-25 octobre</span></div>
+    <div class="row"><a href="https://www.helloasso.com/associations/passeurs-de-danse/evenements/stage-national-passeurs-de-danse-2026">Infos et lieu : HelloAsso</a></div>
+  </article>
+</section>
+
+<section class="sec" aria-labelledby="h-show">
+  <header><h2 id="h-show">À voir sur scène</h2></header>
+  <article class="item show">
+    <h3>Chaillot : Bouchra Ouizguen et Tania El Khoury</h3>
+    <p>« Este Mundo » de Bouchra Ouizguen, et « Choreography of State », installation-performance de Tania El Khoury sur la chorégraphie de la violence d'État. Le 20 octobre, Chaillot invite POUSH.</p>
+    <div class="meta"><span class="when">8-10 octobre</span><span>Paris 16e</span></div>
+    <div class="row"><a href="https://www.offi.fr/theatre/theatre-national-de-chaillot-1752.html">Source : Offi</a><a href="https://unidivers.fr/event/chaillot-invite-poush-chaillot-theatre-national-de-la-danse-paris-paris-2026-10-20t2130000200/">Chaillot invite POUSH</a></div>
+  </article>
+  <article class="item show">
+    <h3>Sharon Eyal et l'Opéra de Paris</h3>
+    <p>Voir les actus plus haut : « Delay the Sadness » du 8 au 10 octobre, « Manon » jusqu'au 30 octobre et la soirée de trois pièces à partir du 11.</p>
+  </article>
+</section>
+
+<section class="sec" aria-labelledby="h-battle">
+  <header><h2 id="h-battle">Battles</h2><p>Du plus proche au plus loin : Nouvelle-Aquitaine, France, puis le monde.</p></header>
+
+  <div class="sub">Nouvelle-Aquitaine</div>
+  <article class="item battle">
+    <h3>Breaking Digital Battle</h3>
+    <p>Les Associés Crew transforment la salle Didier Lockwood en dancefloor avec scénographie vidéo, jury national et deux MC. Des breakers de toute la France sont attendus.</p>
+    <div class="meta"><span class="when">Sam. 10 octobre, 14h30</span><span>Pôle culturel Évasion, Ambarès-et-Lagrave (33)</span><span>Breaking · entrée gratuite</span></div>
+    <div class="row"><a href="https://www.spectable.com/ambares-et-lagrave-33440/agenda-culturel/danse/breaking-digital-battle/814820">Source : Spectable</a><a href="https://evasion.ambaresetlagrave.fr/">Inscriptions danseurs : Évasion</a><button class="copy" type="button" data-story="Breaking Digital Battle · sam. 10 oct., 14h30 · Pôle culturel Évasion, Ambarès-et-Lagrave · entrée gratuite · orga Les Associés Crew">Copier pour story</button></div>
+  </article>
+
+  <div class="sub">France</div>
+  <article class="item battle">
+    <h3>Battle Pro, finale internationale</h3>
+    <p>Plus de cent danseurs internationaux au Châtelet. Au programme : crew vs crew, 1vs1 kids et 2vs2 b-boys / b-girls.</p>
+    <div class="meta"><span class="when">Sam. 10 octobre, 20h</span><span>Théâtre du Châtelet, Paris 1er</span><span>5 à 35 €, réservation obligatoire</span></div>
+    <div class="row"><a href="https://www.paris.fr/evenements/battle-pro-finale-internationale-2026-au-theatre-du-chatelet-123360">Source : paris.fr</a><button class="copy" type="button" data-story="Battle Pro · finale internationale · sam. 10 oct., 20h · Théâtre du Châtelet · crew vs crew, 1vs1 kids, 2vs2 · places 5-35 €">Copier pour story</button></div>
+  </article>
+  <article class="item battle">
+    <h3>Break'in Battle #3</h3>
+    <p>Battle en arène dans le cadre du CultureS Hip Hop Festival, avec un jury national. Le public est collé aux danseurs.</p>
+    <div class="meta"><span class="when">Sam. 17 octobre, 20h30</span><span>Salle Arvest, Pleyben (29)</span><span>Breaking · 10 € / 8 €</span></div>
+    <div class="row"><a href="https://www.jds.fr/spectacles/break-in-battle-3-1694822_A">Source : JDS</a></div>
+  </article>
+  <article class="item battle">
+    <h3>Battle hip-hop solidaire</h3>
+    <p>Organisé avec l'association H2G au profit du Secours populaire.</p>
+    <div class="meta"><span class="when">Sam. 21 novembre</span><span>Magny-les-Hameaux (78)</span></div>
+    <div class="row"><a href="https://magny-les-hameaux.fr/print/pdf/node/8148">Source : mairie</a></div>
+  </article>
+
+  <div class="sub">International</div>
+  <article class="item battle">
+    <h3>Red Bull Dance Your Style, finale mondiale</h3>
+    <p>All style. La finale française s'est jouée à l'Opéra de Montpellier le 26 septembre ; son vainqueur représente la France.</p>
+    <div class="meta"><span class="when">24 octobre</span><span>Zurich, Suisse</span></div>
+    <div class="row"><a href="https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/red-bull-dance-your-style-montpellier_TFOFMALAR034V52US33/">Source : Hérault Tourisme</a></div>
+  </article>
+  <article class="item battle">
+    <h3>Red Bull BC One World Final</h3>
+    <p>Le plus grand 1vs1 de breaking au monde, 23e édition, dans l'ancien Maple Leaf Gardens.</p>
+    <div class="meta"><span class="when">29 novembre</span><span>Toronto, Canada</span></div>
+    <div class="row"><a href="https://www.mattamyathleticcentre.ca/events/detail/red-bull-bc-one-world-final-toronto-2026">Source : Mattamy Athletic Centre</a></div>
+  </article>
+</section>
+
+<section class="sec" aria-labelledby="h-local">
+  <header><h2 id="h-local">Hors radar</h2><p>Les studios et les lieux qui n'annoncent souvent que sur Instagram.</p></header>
+
+  <div class="sub">Bordeaux</div>
+  <article class="item stage">
+    <h3>Les Douvances, 11e saison de training libre</h3>
+    <p>Tous styles, tous niveaux, chacun peut passer sa playlist et les DJ sont bienvenus. L'asso Fish &amp; Shoes cherche des bénévoles référents : sans référent présent, le training est annulé.</p>
+    <div class="meta"><span class="when">Tous les mardis, 18h-21h</span><span>Halle des Douves</span><span>Adhésion 10 € la saison</span></div>
+    <div class="row"><a href="https://www.instagram.com/lesdouvances/p/Dcx1XWbA6HB/">Annonce Instagram</a></div>
+  </article>
+  <article class="item stage">
+    <h3>Studio Attitude : premier cours d'essai gratuit</h3>
+    <p>Plannings adultes et ados en ligne. Côté profs : Manon (hip-hop commercial, heels), Léa (commercial, reggaeton, urban contempo), Juliette, Greg D.Krumpy (dancehall, afro dancehall, newstyle) et David (afro).</p>
+    <div class="meta"><span>Bordeaux / Eysines</span></div>
+    <div class="row"><a href="https://www.instagram.com/studioattitude_officiel/">@studioattitude_officiel</a></div>
+  </article>
+
+  <div class="sub">Poitiers</div>
+  <article class="item stage">
+    <h3>Chorinitia inaugure ses nouveaux studios</h3>
+    <p>Nouveau planning, avec de la pole dance cette saison. Les réservations se font dans l'appli Chorinitia.</p>
+    <div class="row"><a href="https://www.instagram.com/studio.chorinitia/p/DcUIabvje19/">Annonce Instagram</a></div>
+  </article>
+
+  <div class="sub">Angoulême</div>
+  <article class="item stage">
+    <h3>School Rag' a fait sa rentrée</h3>
+    <p>Cours repris depuis le 14 septembre, inscriptions ouvertes sur le planning 2026-27. Pas encore de stage annoncé.</p>
+    <div class="row"><a href="https://www.instagram.com/school_rag_angouleme/">@school_rag_angouleme</a></div>
+  </article>
+
+  <div class="sub">Ailleurs cette semaine</div>
+  <p class="empty">Rien de vérifiable pour l'instant à Limoges, Niort, La Rochelle, Montpellier ou Metz. Tu organises quelque chose ? Réponds à cette lettre.</p>
+</section>
+
+<footer>
+  <p><a href="index.html">S'abonner gratuitement</a> · <a href="https://ko-fi.com/huittemps" target="_blank" rel="noopener">Soutenir sur Ko-fi</a> · <a href="archives/">Anciens numéros</a></p>
+  <p><b>Huit Temps</b> — la lettre des danseurs qui comptent jusqu'à huit. Chaque info est vérifiée et sourcée ; les dates peuvent bouger, vérifie toujours auprès de l'organisateur.</p>
+  <p>Les boutons « Copier pour story » mettent un texte court dans ton presse-papier, prêt à coller sur Instagram.</p>
+</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var text=btn.getAttribute('data-story');
+    var done=function(){var old=btn.textContent;btn.textContent='Copié';btn.classList.add('ok');setTimeout(function(){btn.textContent=old;btn.classList.remove('ok')},1600)};
+    var fallback=function(){
+      var ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';
+      document.body.appendChild(ta);ta.select();
+      try{document.execCommand('copy');done()}catch(e){btn.textContent='Sélectionne le texte'}
+      document.body.removeChild(ta);
+    };
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done).catch(fallback)}else{fallback()}
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Huit Temps</title>
+<meta name="description" content="La veille danse gratuite du dimanche : battles, auditions, stages, spectacles et pépites hors radar, de la Nouvelle-Aquitaine au monde.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Huit Temps">
+<meta property="og:description" content="La veille danse gratuite du dimanche : battles, auditions, stages, spectacles et pépites hors radar, de la Nouvelle-Aquitaine au monde.">
+<meta property="og:url" content="https://nicolasbaudoin.github.io/huit-temps/">
+<meta property="og:image" content="https://nicolasbaudoin.github.io/huit-temps/assets/banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/avatar.png">
+<link rel="apple-touch-icon" href="assets/avatar.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Graduate&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@700&display=swap">
+<style>
+/* Layout: en tête, le mur de boomboxes du Vault (bois, brique, lumière tungstène) ; dessous, le sol blanc du studio où la lettre se lit. Couleurs du crew (rouge, vert, bleu, violet, jaune) en stickers ; dates en lettrage maillot ; encadré des dates limites en rouge comme le sol mouillé du World Jam. Thème clair unique, assumé. */
+:root{
+  color-scheme:light;
+  --vault:#17110e;        /* bois sombre / brique */
+  --tungsten:#ffb357;     /* lumière des ampoules */
+  --floor:#f2f1ee;        /* sol blanc du studio */
+  --paper:#ffffff;
+  --ink:#1a1512;
+  --muted:#6b625b;
+  --line:#dcd7d0;
+  --red:#d62d36;          /* World Jam */
+  --green:#1d9a52;        /* survêt vert */
+  --cobalt:#2a55d8;       /* casquette bleue */
+  --purple:#7a3fc6;       /* tags violets du sol */
+  --yellow:#ffd23f;       /* jaune maillot */
+  --display:"Bowlby One","Arial Black",Impact,sans-serif;
+  --jersey:"Graduate","Rockwell","Courier New",serif;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Barlow","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--floor);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;padding:0}
+.wrap{max-width:44rem;margin:0 auto;padding-inline:16px;padding-block:2.5rem 64px;display:flex;flex-direction:column;gap:3rem}
+a{color:var(--cobalt);text-decoration-thickness:2px;text-underline-offset:3px;font-weight:600}
+a:hover{color:var(--red)}
+a:focus-visible,button:focus-visible,.strip:focus-visible{outline:3px solid var(--cobalt);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;margin:0;line-height:1.05}
+
+/* Hero : le mur de boomboxes sous les ampoules */
+.mast{color:#fff;padding-inline:16px;padding-block:2.75rem 2.25rem;background-color:var(--vault);
+  background-image:
+    radial-gradient(ellipse 70% 60% at 50% -5%,rgba(255,179,87,.55),transparent 70%),
+    linear-gradient(to bottom,rgba(23,17,14,.15),rgba(23,17,14,.85) 92%),
+    radial-gradient(circle at 25% 50%,#4a403a 0 3px,#0c0907 4px 9px,#3c332d 10px 12px,transparent 13px),
+    radial-gradient(circle at 75% 50%,#4a403a 0 3px,#0c0907 4px 9px,#3c332d 10px 12px,transparent 13px),
+    linear-gradient(#2a221d 0 0);
+  background-size:100% 100%,100% 100%,58px 34px,58px 34px,58px 34px;
+  background-position:0 0,0 0,0 0,0 0,0 0;
+  box-shadow:inset 0 -6px 0 var(--red)}
+.mast-in{max-width:44rem;margin:0 auto;display:flex;flex-direction:column;gap:1.1rem}
+.kicker{font-family:var(--jersey);font-size:.95rem;letter-spacing:.3em;color:var(--tungsten)}
+.kicker b{color:#fff;font-weight:400}
+.mast h1{font-family:var(--display);font-weight:400;font-size:clamp(3.4rem,16vw,7rem);line-height:.9;text-transform:uppercase;color:#fff;
+  transform:rotate(-3deg) skewX(-6deg);transform-origin:left bottom;
+  text-shadow:.05em .05em 0 var(--ink),.08em .08em 0 var(--red);padding-block:.15em .1em}
+.mast h1 span{display:block;margin-left:.6em}
+@media (prefers-reduced-motion:no-preference){
+  .mast h1{animation:drop .7s cubic-bezier(.2,1.4,.4,1) .1s 1 both}
+  @keyframes drop{from{transform:translateY(-14px) rotate(-6deg) skewX(-6deg)}to{transform:rotate(-3deg) skewX(-6deg)}}
+}
+.issue{font-family:var(--cond);font-size:1rem;text-transform:uppercase;letter-spacing:.06em;color:#e9dfd6;display:flex;flex-wrap:wrap;gap:.2rem 1.1rem}
+.issue span:first-child{font-family:var(--jersey);color:var(--yellow);letter-spacing:.04em}
+.edito{font-size:1.18rem;line-height:1.55;max-width:38rem;margin:0;color:#f6efe8}
+.edito em{font-style:normal;font-weight:700;color:var(--tungsten)}
+
+/* Stickers de légende */
+.legend{display:flex;flex-wrap:wrap;gap:.55rem;padding-top:.3rem}
+.tag{display:inline-block;font-family:var(--cond);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;padding:.12rem .6rem;color:#fff;border:2px solid #fff;box-shadow:2px 2px 0 var(--ink)}
+.tag:nth-child(odd){transform:rotate(-2deg)} .tag:nth-child(even){transform:rotate(1.5deg)}
+.c-battle{background:var(--red)} .c-audition{background:var(--green)} .c-stage{background:var(--cobalt)} .c-show{background:var(--purple)} .c-news{background:var(--yellow);color:var(--ink)}
+
+/* Dates limites : le sol rouge mouillé du World Jam */
+.urgent{color:#fff;padding:1.4rem 1.25rem;display:flex;flex-direction:column;gap:1rem;
+  background:
+    radial-gradient(ellipse 40% 18% at 20% 12%,rgba(255,255,255,.28),transparent 70%),
+    radial-gradient(ellipse 30% 12% at 80% 85%,rgba(255,255,255,.18),transparent 70%),
+    linear-gradient(165deg,#e1373f,#a3141d);
+  box-shadow:6px 6px 0 var(--ink)}
+.urgent h2{font-family:var(--display);font-weight:400;font-size:1.7rem;text-transform:uppercase}
+.dl{display:grid;grid-template-columns:5.6rem 1fr;gap:.9rem 1rem;margin:0}
+.dl dt{font-family:var(--jersey);font-size:1.25rem;line-height:1.15;color:var(--yellow);text-transform:uppercase}
+.dl dd{margin:0;min-width:0}
+.dl dd small{display:block;color:#ffd9d5;font-size:.9rem}
+
+/* Titres de section : surligneur façon tag au sol */
+.agenda h2,.sec>header h2{font-family:var(--display);font-weight:400;font-size:clamp(1.7rem,6vw,2.2rem);text-transform:uppercase;align-self:flex-start;
+  background:linear-gradient(to top,var(--yellow) 0 38%,transparent 38%);padding-inline:.1em}
+
+/* Frise */
+.strip{overflow-x:auto;margin-top:1rem;padding-bottom:.6rem}
+.strip ol{list-style:none;margin:0;padding:0 6px 6px 0;display:flex;gap:.7rem;width:max-content}
+.strip li{width:9.6rem;background:var(--paper);border:2px solid var(--ink);border-top-width:8px;padding:.6rem .7rem;display:flex;flex-direction:column;gap:.3rem;font-size:.86rem;line-height:1.35;box-shadow:3px 3px 0 var(--line)}
+.strip li.battle{border-top-color:var(--red)}
+.strip li.audition{border-top-color:var(--green)}
+.strip li.stage{border-top-color:var(--cobalt)}
+.strip li.show{border-top-color:var(--purple)}
+.strip .d{font-family:var(--jersey);font-size:.95rem;text-transform:uppercase;line-height:1.1}
+.hint{font-family:var(--cond);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:.4rem 0 0}
+
+/* Sections */
+.sec{display:flex;flex-direction:column;gap:1.4rem}
+.sec>header{display:flex;flex-direction:column;gap:.4rem}
+.sec>header p{margin:0;color:var(--muted);font-size:.95rem}
+.sub{font-family:var(--cond);font-size:.95rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);border-bottom:2px solid var(--ink);padding-bottom:.2rem;margin-top:.4rem}
+.item{display:flex;flex-direction:column;gap:.45rem;padding-left:1rem;border-left:6px solid var(--line)}
+.item.battle{border-left-color:var(--red)}
+.item.audition{border-left-color:var(--green)}
+.item.stage{border-left-color:var(--cobalt)}
+.item.show{border-left-color:var(--purple)}
+.item.news{border-left-color:var(--yellow)}
+.item h3{font-family:var(--cond);font-weight:700;font-size:1.55rem;line-height:1.05;text-transform:uppercase;letter-spacing:.01em}
+.item p{margin:0}
+.meta{font-family:var(--cond);font-size:.98rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.1rem .9rem;font-variant-numeric:tabular-nums}
+.meta .when{color:var(--ink);font-weight:700}
+.due{font-family:var(--cond);font-weight:700;font-size:.95rem;text-transform:uppercase;letter-spacing:.03em;background:var(--red);color:#fff;padding:.08rem .55rem;align-self:flex-start;transform:rotate(-1.5deg);box-shadow:2px 2px 0 var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;font-size:.92rem}
+.copy{font-family:var(--cond);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;border:2px solid var(--ink);padding:.15rem .7rem;cursor:pointer;box-shadow:2px 2px 0 var(--yellow);transition:transform .15s}
+.copy:hover{transform:rotate(-2deg)}
+.copy.ok{background:var(--green);border-color:var(--green)}
+.empty{font-style:italic;color:var(--muted);margin:0}
+
+footer{border-top:2px solid var(--ink);padding-top:1rem;font-size:.9rem;color:var(--muted);display:flex;flex-direction:column;gap:.5rem}
+footer p{margin:0}
+footer b{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+/* One-page d'inscription : mêmes tokens que la lettre */
+.mast .cta-row{display:flex;flex-wrap:wrap;gap:.8rem;padding-top:.4rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--cond);font-weight:700;font-size:1.15rem;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;padding:.55rem 1.2rem;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);cursor:pointer;transition:transform .15s}
+.btn:hover{transform:rotate(-1.5deg) translateY(-1px)}
+.btn-main{background:var(--yellow);color:var(--ink)}
+.btn-main:hover{color:var(--ink)}
+.btn-red{background:var(--red);color:#fff;border-color:#fff}
+.btn-red:hover{color:#fff}
+.btn-ghost{background:var(--paper);color:var(--ink)}
+.btn-ghost:hover{color:var(--ink)}
+.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed;transform:none}
+.mast .btn{border-color:#fff}
+.join .cta-row{display:flex;flex-wrap:wrap;gap:.8rem}
+.lead{font-size:1.15rem;margin:0}
+.rubriques{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(13rem,100%),1fr));gap:1rem}
+.rub{background:var(--paper);border:2px solid var(--ink);border-top-width:8px;padding:.9rem 1rem;display:flex;flex-direction:column;gap:.35rem;min-width:0}
+.rub h3{font-family:var(--cond);font-size:1.35rem;text-transform:uppercase}
+.rub p{margin:0;font-size:.98rem}
+.rub.battle{border-top-color:var(--red)} .rub.audition{border-top-color:var(--green)} .rub.stage{border-top-color:var(--cobalt)} .rub.show{border-top-color:var(--purple)} .rub.news{border-top-color:var(--yellow)}
+.zone{display:flex;flex-direction:column;gap:.6rem}
+.zone h3{font-family:var(--cond);font-size:1.35rem;text-transform:uppercase}
+.zone p{margin:0;color:var(--muted);font-size:.95rem}
+.cities{display:flex;flex-wrap:wrap;gap:.45rem;list-style:none;margin:0;padding:0}
+.cities li{font-family:var(--cond);font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:.03em;padding:.1rem .6rem;border:2px solid var(--ink);background:var(--paper)}
+.cities.home li{background:var(--ink);color:#fff}
+.cities li:nth-child(3n+1){transform:rotate(-1.2deg)} .cities li:nth-child(3n+2){transform:rotate(1deg)}
+.spots{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.6rem}
+.spots li{display:flex;flex-wrap:wrap;gap:.2rem .8rem;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:.5rem}
+.spots b{font-family:var(--cond);font-size:1.2rem;text-transform:uppercase}
+.spots span{color:var(--muted);font-size:.95rem}
+.join{color:#fff;padding:1.6rem 1.25rem;display:flex;flex-direction:column;gap:1rem;
+  background:radial-gradient(ellipse 40% 18% at 20% 12%,rgba(255,255,255,.28),transparent 70%),radial-gradient(ellipse 30% 12% at 80% 85%,rgba(255,255,255,.18),transparent 70%),linear-gradient(165deg,#e1373f,#a3141d);
+  box-shadow:6px 6px 0 var(--ink)}
+.join h2{font-family:var(--display);font-weight:400;font-size:clamp(1.6rem,6vw,2.1rem);text-transform:uppercase}
+.join p{margin:0}
+.join .btn{border-color:#fff}
+.join small{color:#ffd9d5;font-size:.9rem}
+.soon{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--ink);color:var(--yellow);padding:.15rem .6rem;align-self:flex-start}
+.kofi{background:var(--paper);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--yellow);padding:1.4rem 1.25rem;display:flex;flex-direction:column;gap:.8rem}
+.kofi h2{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,5.5vw,1.9rem);text-transform:uppercase}
+.kofi p{margin:0}
+.rgpd{font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="mast"><div class="mast-in">
+  <div class="kicker" aria-hidden="true">5 · 6 · 7 · <b>8</b></div>
+  <h1>Huit<span>Temps</span></h1>
+  <div class="issue"><span>Gratuit</span><span>Chaque dimanche à 18h</span><span>Dans ta boîte mail</span></div>
+  <p class="edito">La veille danse qui compte jusqu'à huit pour toi. Chaque semaine, Huit Temps scanne le web et les comptes Insta des studios pour te ramener les <em>battles, auditions, stages et spectacles</em> qu'on ne trouve nulle part ailleurs.</p>
+  <div class="cta-row">
+    <a class="btn btn-main js-subscribe" href="#inscription">Je m'abonne</a>
+    <a class="btn btn-red" href="https://ko-fi.com/huittemps" target="_blank" rel="noopener">Soutenir sur Ko-fi</a>
+    <a class="btn btn-ghost" href="lettre.html">Lire le dernier numéro</a>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<section class="sec" aria-labelledby="h-what">
+  <header><h2 id="h-what">Ce que tu reçois</h2><p>Une lettre par semaine, tous styles et tous niveaux, du loisir avancé au pro. Chaque info a sa source.</p></header>
+  <div class="rubriques">
+    <article class="rub battle"><h3>Battles</h3><p>Breaking 1vs1, 2vs2, crews et kids, all style, popping, house, krump, jams et cyphers. Avec la date et la façon de s'inscrire.</p></article>
+    <article class="rub audition"><h3>Auditions</h3><p>Compagnies, ballets, comédies musicales, tournées et clips, en France et à l'étranger. Les dates limites sont bien en vue.</p></article>
+    <article class="rub stage"><h3>Stages</h3><p>Masterclasses, intensives, bootcamps et trainings libres, avec l'intervenant et les codes promo quand il y en a.</p></article>
+    <article class="rub show"><h3>Spectacles</h3><p>Créations, premières, festivals et tournées qui valent le déplacement.</p></article>
+    <article class="rub news"><h3>Hors radar</h3><p>Les pépites des villes moyennes, annoncées seulement sur Insta, que personne ne relaie.</p></article>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-where">
+  <header><h2 id="h-where">Où on scanne</h2><p>On part du local et on élargit chaque semaine.</p></header>
+
+  <div class="zone">
+    <h3>Nouvelle-Aquitaine, chaque semaine</h3>
+    <ul class="cities home">
+      <li>Bordeaux</li><li>Angoulême</li><li>Poitiers</li><li>Niort</li><li>Limoges</li><li>La Rochelle</li><li>Périgueux</li><li>Bergerac</li><li>Cognac</li><li>Pau</li><li>Bayonne</li>
+    </ul>
+  </div>
+
+  <div class="zone">
+    <h3>Toute la France, en rotation</h3>
+    <p>Deux ou trois villes moyennes de plus chaque semaine, pour couvrir peu à peu tout le territoire, plus les grands rendez-vous nationaux.</p>
+    <ul class="cities">
+      <li>Paris &amp; Île-de-France</li><li>Toulouse</li><li>Montpellier</li><li>Nîmes</li><li>Perpignan</li><li>Rennes</li><li>Brest</li><li>Lorient</li><li>Nancy</li><li>Metz</li><li>Reims</li><li>Amiens</li><li>Roubaix</li><li>Lyon &amp; Auvergne-Rhône-Alpes</li><li>Marseille &amp; PACA</li>
+    </ul>
+  </div>
+
+  <div class="zone">
+    <h3>International</h3>
+    <p>Les grandes compagnies qui auditionnent à l'étranger et les battles majeurs ouverts aux Français : Red Bull BC One, Dance Your Style, Battle Pro, Juste Debout, championnats WDSF…</p>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-spots">
+  <header><h2 id="h-spots">Les spots suivis</h2><p>Studios et lieux dont on lit les annonces chaque semaine. Tu en connais un qui manque ? Écris-nous en répondant à la lettre.</p></header>
+  <ul class="spots">
+    <li><b>Studio Attitude</b><span>Bordeaux / Eysines · danses urbaines, dancehall, heels, afro</span></li>
+    <li><b>Les Douvances</b><span>Bordeaux · training libre du mardi au Marché des Douves</span></li>
+    <li><b>School Rag'</b><span>Angoulême · danses urbaines et dancehall</span></li>
+    <li><b>Studio Chorinitia</b><span>Poitiers · urbain, talons, street jazz</span></li>
+    <li><b>Centre James Carlès</b><span>Toulouse · stages internationaux, masterclasses, formation pro</span></li>
+  </ul>
+</section>
+
+<section class="join" id="inscription" aria-labelledby="h-join">
+  <h2 id="h-join">Rejoins le cypher</h2>
+  <p>Laisse ton email et reçois Huit Temps chaque dimanche à 18h. C'est gratuit, et tu te désinscris quand tu veux.</p>
+  <span class="soon js-soon">Les inscriptions ouvrent très bientôt</span>
+  <div class="cta-row">
+    <a class="btn btn-main js-subscribe" href="#inscription">Je m'abonne</a>
+    <a class="btn btn-ghost js-unsubscribe" href="#inscription">Me désinscrire</a>
+  </div>
+  <small>Ton email sert uniquement à t'envoyer Huit Temps. Il n'est jamais revendu ni partagé. Chaque lettre contient un lien pour te désinscrire.</small>
+</section>
+
+<section class="kofi" aria-labelledby="h-kofi">
+  <h2 id="h-kofi">Soutiens Huit Temps</h2>
+  <p>La lettre est et restera gratuite. Si elle t'a fait découvrir un stage, décrocher une audition ou trouver ton prochain battle, tu peux lui offrir un café. Ça aide à la garder vivante et à couvrir toujours plus de villes.</p>
+  <a class="btn btn-red" href="https://ko-fi.com/huittemps" target="_blank" rel="noopener" style="align-self:flex-start">Faire un don sur Ko-fi</a>
+</section>
+
+<footer>
+  <p><b>Huit Temps</b> — la lettre des danseurs qui comptent jusqu'à huit.</p>
+  <p class="rgpd">Données : ton adresse email, utilisée seulement pour l'envoi de la lettre. Pour la supprimer, utilise « Me désinscrire » ou le lien en bas de chaque lettre.</p>
+</footer>
+</div>
+
+<script>
+// Lien du formulaire d'inscription (Google Form) : à renseigner. Tant qu'il est vide, les boutons restent désactivés.
+var FORM_URL = "";
+var UNSUB_URL = "";
+(function(){
+  function wire(sel, url){
+    document.querySelectorAll(sel).forEach(function(a){
+      if(url){a.href=url;a.target="_blank";a.rel="noopener";a.removeAttribute("aria-disabled");}
+      else if(a.closest(".join")){a.setAttribute("aria-disabled","true");a.addEventListener("click",function(e){e.preventDefault();});}
+    });
+  }
+  wire(".js-subscribe", FORM_URL);
+  wire(".js-unsubscribe", UNSUB_URL || FORM_URL);
+  if(FORM_URL){document.querySelectorAll(".js-soon").forEach(function(el){el.hidden=true;});}
+})();
+</script>
+</body>
+</html>
