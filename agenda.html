@@ -276,6 +276,7 @@ footer b{color:var(--ink)}
       if(m!==cur){cur=m;box.appendChild(el("h2","month",m))}
       var a=el("article","ev "+it.type), dd=el("div","d");
       if(it.rrule){dd.appendChild(el("b",null,"↻"));dd.appendChild(document.createTextNode(/BYDAY=TU/.test(it.rrule)?"chaque mardi":"régulier"))}
+      else if(it.start<today){dd.appendChild(el("b",null,"▶"));dd.appendChild(document.createTextNode("en cours"))}
       else{var x=d(it.start);dd.appendChild(document.createTextNode(JOURS[x.getDay()]));dd.appendChild(el("b",null,String(x.getDate())));dd.appendChild(document.createTextNode(MOIS[x.getMonth()].slice(0,4)))}
       a.appendChild(dd);
       var c=el("div","min");
