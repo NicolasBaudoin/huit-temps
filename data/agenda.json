@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-06",
+ "updated": "2026-10-07",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
  "items": [
   {
@@ -61,7 +61,7 @@
    "id": "battle-battle-pro-finale-2026-10-10",
    "type": "battle",
    "title": "Battle Pro, finale internationale",
-   "summary": "Breaking : crew vs crew, 1vs1 kids, 2vs2 b-boys / b-girls. Plus de 100 danseurs internationaux.",
+   "summary": "Breaking : crew vs crew, 1vs1 kids, 2vs2 b-boys / b-girls. Plus de 100 danseurs internationaux. Livestream le 10 octobre à 20h (CEST) via insulart.com pour ceux sans billet.",
    "start": "2026-10-10",
    "end": "2026-10-10",
    "time": "20h (portes 18h30)",
@@ -81,7 +81,7 @@
    "url": "https://www.paris.fr/evenements/battle-pro-finale-internationale-2026-au-theatre-du-chatelet-123360",
    "via": "web",
    "found": "2026-10-04",
-   "verified": "2026-10-04",
+   "verified": "2026-10-07",
    "status": "ok"
   },
   {
@@ -357,10 +357,10 @@
    "id": "stage-move-centre-james-carles-2026-10-24",
    "type": "stage",
    "title": "Stage international d'automne « Move ! », Centre James Carlès",
-   "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan).",
+   "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodance tous niveaux, 17h30-19h).",
    "start": "2026-10-24",
    "end": "2026-10-28",
-   "time": null,
+   "time": "Afrodance Deewin : 17h30-19h",
    "rrule": null,
    "deadline": "2026-10-11",
    "deadline_label": "-10 % avec le code MOVE10",
@@ -379,7 +379,7 @@
    "url": "https://www.instagram.com/p/DdtGbhAFnEu/",
    "via": "insta",
    "found": "2026-10-04",
-   "verified": "2026-10-04",
+   "verified": "2026-10-07",
    "status": "ok"
   },
   {
@@ -661,7 +661,7 @@
    "deadline_label": null,
    "via": "insta",
    "found": "2026-10-05",
-   "verified": "2026-10-05",
+   "verified": "2026-10-07",
    "status": "ok",
    "id": "spectacle-opera-bordeaux-soiree-roland-petit-2026-10-07",
    "type": "spectacle",
@@ -1041,6 +1041,91 @@
     "néoclassique"
    ],
    "url": "https://www.explorenicecotedazur.com/evenement/jean-christophe-maillot-ioannis-mandafounis/"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": "15h",
+   "price": null,
+   "free": null,
+   "level": "tous",
+   "via": "web",
+   "found": "2026-10-07",
+   "verified": "2026-10-07",
+   "status": "ok",
+   "end": "2026-10-24",
+   "id": "battle-battle-international-ales-2026-10-24",
+   "type": "battle",
+   "title": "5e Battle International, All Dance 2vs2",
+   "summary": "Nouveau format 2vs2 all style (house, popping, breaking, top rock, new style, locking), 8 duos sélectionnés. Dans la Semaine internationale du hip-hop d'Alès.",
+   "start": "2026-10-24",
+   "city": "Alès",
+   "region": "Occitanie",
+   "venue": "Le Cratère (La Prairie)",
+   "styles": [
+    "all style",
+    "breaking",
+    "popping",
+    "house",
+    "locking"
+   ],
+   "organizer": "Le Cratère × All'Style",
+   "url": "https://www.tourismegard.com/fr/fiche/fete-et-manifestation/danse-5e-battle-international-ales_TFO7924989/"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": null,
+   "price": "6 à 18 €",
+   "free": null,
+   "level": null,
+   "via": "web",
+   "found": "2026-10-07",
+   "verified": "2026-10-07",
+   "status": "ok",
+   "end": "2026-11-21",
+   "id": "spectacle-neufneuf-festival-2026-11-05",
+   "type": "spectacle",
+   "title": "NEUFNEUF Festival, 17e édition",
+   "summary": "Festival de danse contemporaine en dialogue avec théâtre, musique et performance. Création VORTEX (Cie Trente Printemps) le 7 novembre à l'Espace Roguet.",
+   "start": "2026-11-05",
+   "city": "Toulouse",
+   "region": "Occitanie",
+   "venue": "Toulouse, Tournefeuille, Martres-Tolosane",
+   "styles": [
+    "contemporain"
+   ],
+   "organizer": "Lieu NEUFNEUF",
+   "url": "https://www.festivalenfrance.com/festival/neufneuf-festival"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": null,
+   "price": "Gratuit",
+   "free": true,
+   "level": null,
+   "via": "web",
+   "found": "2026-10-07",
+   "verified": "2026-10-07",
+   "status": "ok",
+   "end": "2026-11-22",
+   "id": "audition-et-bam-compagnie-2026-11-22",
+   "type": "audition",
+   "title": "Audition ET BaM! Compagnie (session de novembre)",
+   "summary": "Seconde session d'audition de la compagnie de la BaM School, participation gratuite. Une version Kids (junior) a lieu le 21 novembre.",
+   "start": "2026-11-22",
+   "city": "Île-de-France",
+   "region": "Île-de-France",
+   "venue": null,
+   "styles": [
+    "hip-hop"
+   ],
+   "organizer": "BaM School",
+   "url": "https://www.helloasso.com/associations/bam-school/evenements/et-bam-compagnie-saison-2"
   }
  ]
 }
