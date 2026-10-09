@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:spectacle-sharon-eyal-delay-the-sadness-2026-10-08@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261011
 SUMMARY:🟣 Spectacle · Sharon Eyal\, « Delay the Sadness » · Saint-Ou
@@ -29,7 +29,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-chaillot-ouizguen-el-khoury-2026-10-08@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261011
 SUMMARY:🟣 Spectacle · Bouchra Ouizguen « Este Mundo » & Tania El Khou
@@ -45,7 +45,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-battle-pro-finale-2026-10-10@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:🔴 Battle · Battle Pro\, finale internationale · Paris · 20h (
@@ -64,7 +64,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-breaking-digital-battle-2026-10-10@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:🔴 Battle · Breaking Digital Battle · Ambarès-et-Lagrave · 14
@@ -84,7 +84,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-opera-paris-manon-2026-09-28@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20261031
 SUMMARY:🟣 Spectacle · « Manon »\, Ballet de l'Opéra de Paris · Pari
@@ -101,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-opera-paris-soiree-3-pieces-2026-10-11@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261108
 SUMMARY:🟣 Spectacle · Soirée trois pièces\, Ballet de l'Opéra de Par
@@ -118,7 +118,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-breakin-battle-3-2026-10-17@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:🔴 Battle · Break'in Battle #3 · Pleyben · 20h30
@@ -133,7 +133,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-cameron-tweed-2026-10-17@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
 SUMMARY:🔵 Stage · Stage de claquettes avec Cameron Tweed · Chasseneuil
@@ -151,7 +151,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-chaillot-invite-poush-2026-10-20@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:🟣 Spectacle · Chaillot invite POUSH · Paris
@@ -167,7 +167,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:actu-biennale-danza-appel-creations-2026-10-20-deadline@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:⏰ Date limite · Dossiers Biennale Danza
@@ -184,7 +184,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-ndt2-2027-2028@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:🟢 Audition · Audition NDT 2\, saison 2027-28 · La Haye
@@ -200,7 +200,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-ndt2-2027-2028-deadline@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:⏰ Date limite · Candidatures NDT 2 (00h CEST)
@@ -216,7 +216,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-passeurs-de-danse-2026-10-23@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261026
 SUMMARY:🔵 Stage · Stage national Passeurs de danse · 8h-17h
@@ -231,7 +231,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-red-bull-dance-your-style-world-final-2026-10-24@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔴 Battle · Red Bull Dance Your Style\, finale mondiale · Zuric
@@ -248,7 +248,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-move-centre-james-carles-2026-10-24@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261029
 SUMMARY:🔵 Stage · Stage international d'automne « Move ! »\, Centre J
@@ -256,36 +256,40 @@ SUMMARY:🔵 Stage · Stage international d'automne « Move ! »\, Centre J
 DESCRIPTION:Cinq jours avec Sylvia Waters (ex-Alvin Ailey II)\, Géraldine 
  Armstrong\, Dorian Rollin\, June Vives\, Angelo Monaco\, Iman Brooks (NYC)
   et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodanc
- e tous niveaux\, 17h30-19h).\nHoraire : Afrodance Deewin : 17h30-19h\nLieu
-  : Centre Chorégraphique James Carlès\, Toulouse\, Occitanie\nOrganisati
- on : Centre James Carlès\nDate limite : 2026-10-11 (-10 % avec le code MO
- VE10)\nSource : https://www.instagram.com/p/DdtGbhAFnEu/\nHuit Temps\, la 
- veille danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+ e tous niveaux\, 17h30-19h). June Vivès (contemporain et répertoire) rem
+ placée par Arthur Bouilliol les 24 et 25 octobre.\nHoraire : Afrodance De
+ ewin : 17h30-19h\nLieu : Centre Chorégraphique James Carlès\, Toulouse\,
+  Occitanie\nOrganisation : Centre James Carlès\nDate limite : 2026-10-11 
+ (-10 % avec le code MOVE10)\nSource : https://www.instagram.com/p/DdtGbhAF
+ nEu/\nHuit Temps\, la veille danse gratuite : https://nicolasbaudoin.githu
+ b.io/huit-temps/
 LOCATION:Centre Chorégraphique James Carlès\, Toulouse
 URL:https://www.instagram.com/p/DdtGbhAFnEu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-move-centre-james-carles-2026-10-24-deadline@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:⏰ Date limite · -10 % avec le code MOVE10
 DESCRIPTION:Cinq jours avec Sylvia Waters (ex-Alvin Ailey II)\, Géraldine 
  Armstrong\, Dorian Rollin\, June Vives\, Angelo Monaco\, Iman Brooks (NYC)
   et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodanc
- e tous niveaux\, 17h30-19h).\nHoraire : Afrodance Deewin : 17h30-19h\nLieu
-  : Centre Chorégraphique James Carlès\, Toulouse\, Occitanie\nOrganisati
- on : Centre James Carlès\nDate limite : 2026-10-11 (-10 % avec le code MO
- VE10)\nSource : https://www.instagram.com/p/DdtGbhAFnEu/\nHuit Temps\, la 
- veille danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+ e tous niveaux\, 17h30-19h). June Vivès (contemporain et répertoire) rem
+ placée par Arthur Bouilliol les 24 et 25 octobre.\nHoraire : Afrodance De
+ ewin : 17h30-19h\nLieu : Centre Chorégraphique James Carlès\, Toulouse\,
+  Occitanie\nOrganisation : Centre James Carlès\nDate limite : 2026-10-11 
+ (-10 % avec le code MOVE10)\nSource : https://www.instagram.com/p/DdtGbhAF
+ nEu/\nHuit Temps\, la veille danse gratuite : https://nicolasbaudoin.githu
+ b.io/huit-temps/
 LOCATION:Centre Chorégraphique James Carlès\, Toulouse
 URL:https://www.instagram.com/p/DdtGbhAFnEu/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-battle-solidaire-magny-2026-11-21@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🔴 Battle · Battle hip-hop solidaire · Magny-les-Hameaux
@@ -299,7 +303,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-une-vie-sous-les-planches-2026-12-07@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:🟢 Audition · Casting comédie musicale « Une vie sous les plan
@@ -318,7 +322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-une-vie-sous-les-planches-2026-12-07-deadline@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:⏰ Date limite · Dossiers « Une vie sous les planches »
@@ -336,7 +340,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-royal-family-dance-crew-2026-11-27@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:🟢 Audition · Auditions The Royal Family Dance Crew\, line-up 20
@@ -353,7 +357,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-red-bull-bc-one-world-final-2026-11-29@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🔴 Battle · Red Bull BC One World Final · Toronto
@@ -369,7 +373,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:training-les-douvances-mardi@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:🔵 Training · Les Douvances\, training libre · Bordeaux · 18h-
@@ -387,7 +391,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-intersquad-workshop-daewon-2026-10-10@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:🔵 Stage · Workshop breaking avec Bboy Daewon (InterSquad) · Vi
@@ -405,7 +409,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-masterclass-sylvia-waters-2026-10-26@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:🔵 Stage · Masterclass répertoire Alvin Ailey avec Sylvia Water
@@ -422,7 +426,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:actu-ose-poitiers-2026-10-17@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
 SUMMARY:🟡 Actu · OSE & OSE Kid 2026\, dernière édition sous cette for
@@ -439,7 +443,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-french-twerk-championship-2026-10-17@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261019
 SUMMARY:🔴 Battle · French Twerk Championship · Paris
@@ -454,7 +458,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-festival-danse-cannes-2026-11-21@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261207
 SUMMARY:🟣 Spectacle · Festival de Danse Cannes Côte d'Azur · Cannes
@@ -470,7 +474,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-opera-bordeaux-soiree-roland-petit-2026-10-07@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261015
 SUMMARY:🟣 Spectacle · Soirée Roland Petit\, Ballet de l'Opéra Nationa
@@ -486,7 +490,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-lax-one-ms-2-cinematic-2026-10-09@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261011
 SUMMARY:🟣 Spectacle · ONE M.S #2 « Cinematic »\, shows LAX Studio · 
@@ -503,7 +507,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-urban-pulse-uprising-2-2026-10-11@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🟣 Spectacle · Urban Pulse Uprising 2 (K-pop × hip-hop) · Pari
@@ -520,7 +524,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-unvsti-event-2026-10-11@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🔴 Battle · UnVsti Event\, battle international de breaking · S
@@ -538,7 +542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-kill-the-beat-2026-10-18@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🔴 Battle · Kill the Beat\, battle de danse · Concarneau
@@ -553,7 +557,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-k-one-brest-2026-10-23@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:🔴 Battle · Le Battle\, battle break de l'association K.One · B
@@ -570,7 +574,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-goteborgsoperans-danskompani-2027-2028@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270222
 SUMMARY:🟢 Audition · GöteborgsOperans Danskompani\, saison 2027/2028 
@@ -589,7 +593,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-goteborgsoperans-danskompani-2027-2028-deadline@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:⏰ Date limite · Candidature avant le dimanche 18 octobre 2026\, 
@@ -608,7 +612,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-niort-event-2026-12-05@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:🔴 Battle · Battle Niort Event (5e édition) · Niort
@@ -623,7 +627,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-mini-camp-hip-hop-ccnrb-2026-10-21@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261026
 SUMMARY:🔵 Stage · Mini-camp hip-hop avec le CCNRB (Liss Funk et Willow)
@@ -640,7 +644,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:stage-mix-session-hip-hop-studio-attitude-2026-11-29@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:🔵 Stage · Mix Session Hip Hop (Lauriane\, Choupi\, Indies Rhino
@@ -657,7 +661,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-deadhomies-battle-2026-10-09@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:🔴 Battle · Deadhomies Battle 2vs2 all style · Nice · 20h
@@ -675,7 +679,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-battle-kids-crew-uzes-2026-11-01@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:🔴 Battle · Battle Kids Hip Hop\, crew vs crew · Uzès · 14h30
@@ -694,7 +698,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:battle-championnats-monde-breaking-hip-hop-freestyle-2026-12-04@huittem
  ps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:🔴 Battle · Championnats du monde Breaking & Hip-Hop Freestyle 
@@ -710,7 +714,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-opera-nice-maillot-mandafounis-2026-10-17@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:🟣 Spectacle · Jean-Christophe Maillot & Ioannis Mandafounis\, B
@@ -727,7 +731,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:battle-battle-international-ales-2026-10-24@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔴 Battle · 5e Battle International\, All Dance 2vs2 · Alès ·
@@ -746,7 +750,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spectacle-neufneuf-festival-2026-11-05@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261122
 SUMMARY:🟣 Spectacle · NEUFNEUF Festival\, 17e édition · Toulouse
@@ -763,7 +767,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:audition-et-bam-compagnie-2026-11-22@huittemps
-DTSTAMP:20261007T140606Z
+DTSTAMP:20261009T140655Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🟢 Audition · Audition ET BaM! Compagnie (session de novembre) 
@@ -777,6 +781,95 @@ DESCRIPTION:Seconde session d'audition de la compagnie de la BaM School\, p
 LOCATION:Île-de-France
 URL:https://www.helloasso.com/associations/bam-school/evenements/et-bam-com
  pagnie-saison-2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-tremplin-all-style-pro-toulouse-2026-10-29@huittemps
+DTSTAMP:20261009T140655Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🟢 Audition · Tremplin All Style Pro\, Festival Danses et Contin
+ ents Noirs #28 · Toulouse · 20h
+DESCRIPTION:Scène ouverte pluridisciplinaire (danse pro\, musique\, slam\,
+  performance). Candidature via les liens en bio : kit presse\, vidéo live
+ \, fiche technique. Contact : contact@studiodsh.fr.\nHoraire : 20h\nLieu :
+  MAC Chapou (Capsule Culturelle)\, Toulouse\, Occitanie\nPrix : Entrée li
+ bre et gratuite (public)\nOrganisation : Centre James Carlès / DSH\nDate 
+ limite : 2026-10-15 (Clôture des candidatures)\nSource : https://www.inst
+ agram.com/centrejamescarles/p/DeMobMLAQjB/\nHuit Temps\, la veille danse g
+ ratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:MAC Chapou (Capsule Culturelle)\, Toulouse
+URL:https://www.instagram.com/centrejamescarles/p/DeMobMLAQjB/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:audition-tremplin-all-style-pro-toulouse-2026-10-29-deadline@huittemps
+DTSTAMP:20261009T140655Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:⏰ Date limite · Clôture des candidatures
+DESCRIPTION:Scène ouverte pluridisciplinaire (danse pro\, musique\, slam\,
+  performance). Candidature via les liens en bio : kit presse\, vidéo live
+ \, fiche technique. Contact : contact@studiodsh.fr.\nHoraire : 20h\nLieu :
+  MAC Chapou (Capsule Culturelle)\, Toulouse\, Occitanie\nPrix : Entrée li
+ bre et gratuite (public)\nOrganisation : Centre James Carlès / DSH\nDate 
+ limite : 2026-10-15 (Clôture des candidatures)\nSource : https://www.inst
+ agram.com/centrejamescarles/p/DeMobMLAQjB/\nHuit Temps\, la veille danse g
+ ratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:MAC Chapou (Capsule Culturelle)\, Toulouse
+URL:https://www.instagram.com/centrejamescarles/p/DeMobMLAQjB/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:battle-juste-debout-finales-paris-2027-03-13@huittemps
+DTSTAMP:20261009T140655Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270315
+SUMMARY:🔴 Battle · Juste Debout\, Finales mondiales 2027 · Paris
+DESCRIPTION:Billetterie ouverte (lien envoyé en DM en commentant « FINAL 
+ »). Panel de juges complet : Jean-Michel Cruel nommé juge Hip-Hop offici
+ el.\nLieu : Paris\, Île-de-France\nOrganisation : Juste Debout\nSource : 
+ https://www.instagram.com/justedebout_officiel/p/DePph4BEey9/\nHuit Temps\
+ , la veille danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Paris
+URL:https://www.instagram.com/justedebout_officiel/p/DePph4BEey9/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spectacle-universite-du-mouvement-7-saisons-soustons-2026-11-08@huittem
+ ps
+DTSTAMP:20261009T140655Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🟣 Spectacle · Université du mouvement\, « Les 7 saisons » (G
+ il Schamber) · Soustons
+DESCRIPTION:Une compagnie de 21 danseurs amateurs confirmés présente des 
+ extraits de ses sept dernières créations\, avec « The Writer » de Clar
+ a Billard en première partie. Mois de la danse dans les Landes.\nLieu : S
+ oustons\, Nouvelle-Aquitaine\nOrganisation : Mois de la danse (Landes)\nSo
+ urce : https://www.tourismelandes.com/en/Schedule/University-of-Movement--
+ The-7-Seasons--The-Month-of-Dance-fmaaqu040v5151by/\nHuit Temps\, la veill
+ e danse gratuite : https://nicolasbaudoin.github.io/huit-temps/
+LOCATION:Soustons
+URL:https://www.tourismelandes.com/en/Schedule/University-of-Movement--The-
+ 7-Seasons--The-Month-of-Dance-fmaaqu040v5151by/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stage-poiesis-automne-micadanses-paris-2026-10-21@huittemps
+DTSTAMP:20261009T140655Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261024
+SUMMARY:🔵 Stage · Stage d'automne Compagnie Poïesis\, avec session hip
+ -hop le vendredi · Paris
+DESCRIPTION:Trois jours de stage à Micadanses\, une session hip-hop le ven
+ dredi. Tarifs de 7 à 70 € selon la formule.\nLieu : Micadanses\, Paris\
+ , Île-de-France\nPrix : 7 à 70 €\nOrganisation : Compagnie Poïesis\nS
+ ource : https://www.helloasso.com/associations/compagnie-poiesis\nHuit Tem
+ ps\, la veille danse gratuite : https://nicolasbaudoin.github.io/huit-temp
+ s/
+LOCATION:Micadanses\, Paris
+URL:https://www.helloasso.com/associations/compagnie-poiesis
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

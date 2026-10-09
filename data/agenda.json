@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-07",
+ "updated": "2026-10-09",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
  "items": [
   {
@@ -81,7 +81,7 @@
    "url": "https://www.paris.fr/evenements/battle-pro-finale-internationale-2026-au-theatre-du-chatelet-123360",
    "via": "web",
    "found": "2026-10-04",
-   "verified": "2026-10-07",
+   "verified": "2026-10-09",
    "status": "ok"
   },
   {
@@ -296,7 +296,7 @@
    "url": "https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/",
    "via": "web",
    "found": "2026-10-04",
-   "verified": "2026-10-04",
+   "verified": "2026-10-09",
    "status": "ok"
   },
   {
@@ -357,7 +357,7 @@
    "id": "stage-move-centre-james-carles-2026-10-24",
    "type": "stage",
    "title": "Stage international d'automne « Move ! », Centre James Carlès",
-   "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodance tous niveaux, 17h30-19h).",
+   "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodance tous niveaux, 17h30-19h). June Vivès (contemporain et répertoire) remplacée par Arthur Bouilliol les 24 et 25 octobre.",
    "start": "2026-10-24",
    "end": "2026-10-28",
    "time": "Afrodance Deewin : 17h30-19h",
@@ -379,7 +379,7 @@
    "url": "https://www.instagram.com/p/DdtGbhAFnEu/",
    "via": "insta",
    "found": "2026-10-04",
-   "verified": "2026-10-07",
+   "verified": "2026-10-09",
    "status": "ok"
   },
   {
@@ -941,7 +941,7 @@
    "level": "tous",
    "via": "web",
    "found": "2026-10-06",
-   "verified": "2026-10-06",
+   "verified": "2026-10-09",
    "status": "ok",
    "end": "2026-10-09",
    "venue": "Frigo 16",
@@ -1126,6 +1126,116 @@
    ],
    "organizer": "BaM School",
    "url": "https://www.helloasso.com/associations/bam-school/evenements/et-bam-compagnie-saison-2"
+  },
+  {
+   "id": "audition-tremplin-all-style-pro-toulouse-2026-10-29",
+   "type": "audition",
+   "title": "Tremplin All Style Pro, Festival Danses et Continents Noirs #28",
+   "summary": "Scène ouverte pluridisciplinaire (danse pro, musique, slam, performance). Candidature via les liens en bio : kit presse, vidéo live, fiche technique. Contact : contact@studiodsh.fr.",
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "time": "20h",
+   "rrule": null,
+   "deadline": "2026-10-15",
+   "deadline_label": "Clôture des candidatures",
+   "city": "Toulouse",
+   "region": "Occitanie",
+   "venue": "MAC Chapou (Capsule Culturelle)",
+   "styles": [
+    "all style"
+   ],
+   "level": "pro",
+   "price": "Entrée libre et gratuite (public)",
+   "free": true,
+   "organizer": "Centre James Carlès / DSH",
+   "url": "https://www.instagram.com/centrejamescarles/p/DeMobMLAQjB/",
+   "via": "insta",
+   "found": "2026-10-09",
+   "verified": "2026-10-09",
+   "status": "ok"
+  },
+  {
+   "id": "battle-juste-debout-finales-paris-2027-03-13",
+   "type": "battle",
+   "title": "Juste Debout, Finales mondiales 2027",
+   "summary": "Billetterie ouverte (lien envoyé en DM en commentant « FINAL »). Panel de juges complet : Jean-Michel Cruel nommé juge Hip-Hop officiel.",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Paris",
+   "region": "Île-de-France",
+   "venue": null,
+   "styles": [
+    "hip-hop",
+    "street"
+   ],
+   "level": "pro",
+   "price": null,
+   "free": false,
+   "organizer": "Juste Debout",
+   "url": "https://www.instagram.com/justedebout_officiel/p/DePph4BEey9/",
+   "via": "insta",
+   "found": "2026-10-09",
+   "verified": "2026-10-09",
+   "status": "ok"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "level": "amateur",
+   "free": null,
+   "via": "web",
+   "found": "2026-10-09",
+   "verified": "2026-10-09",
+   "status": "ok",
+   "time": null,
+   "id": "spectacle-universite-du-mouvement-7-saisons-soustons-2026-11-08",
+   "type": "spectacle",
+   "title": "Université du mouvement, « Les 7 saisons » (Gil Schamber)",
+   "summary": "Une compagnie de 21 danseurs amateurs confirmés présente des extraits de ses sept dernières créations, avec « The Writer » de Clara Billard en première partie. Mois de la danse dans les Landes.",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "city": "Soustons",
+   "region": "Nouvelle-Aquitaine",
+   "venue": null,
+   "styles": [
+    "contemporain"
+   ],
+   "price": null,
+   "organizer": "Mois de la danse (Landes)",
+   "url": "https://www.tourismelandes.com/en/Schedule/University-of-Movement--The-7-Seasons--The-Month-of-Dance-fmaaqu040v5151by/"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "level": "tous",
+   "free": false,
+   "via": "web",
+   "found": "2026-10-09",
+   "verified": "2026-10-09",
+   "status": "ok",
+   "time": null,
+   "id": "stage-poiesis-automne-micadanses-paris-2026-10-21",
+   "type": "stage",
+   "title": "Stage d'automne Compagnie Poïesis, avec session hip-hop le vendredi",
+   "summary": "Trois jours de stage à Micadanses, une session hip-hop le vendredi. Tarifs de 7 à 70 € selon la formule.",
+   "start": "2026-10-21",
+   "end": "2026-10-23",
+   "city": "Paris",
+   "region": "Île-de-France",
+   "venue": "Micadanses",
+   "styles": [
+    "hip-hop",
+    "contemporain"
+   ],
+   "price": "7 à 70 €",
+   "organizer": "Compagnie Poïesis",
+   "url": "https://www.helloasso.com/associations/compagnie-poiesis"
   }
  ]
 }
