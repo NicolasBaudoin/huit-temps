@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
  "items": [
   {
@@ -1339,6 +1339,62 @@
    "via": "web",
    "found": "2026-10-10",
    "verified": "2026-10-10",
+   "status": "ok"
+  },
+  {
+   "id": "battle-juste-debout-belgium-liege-2027-03-06",
+   "type": "battle",
+   "title": "Juste Debout Belgium",
+   "summary": "Le battle Juste Debout débarque à Liège pour la première fois.",
+   "start": "2027-03-06",
+   "end": "2027-03-06",
+   "time": null,
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Liège",
+   "region": "Belgique",
+   "venue": null,
+   "styles": [
+    "all style",
+    "hip-hop"
+   ],
+   "level": null,
+   "price": null,
+   "free": null,
+   "organizer": "Juste Debout Belgium",
+   "url": "https://www.instagram.com/justedeboutxbelgium/p/DeUOWPcIThS/",
+   "via": "insta",
+   "found": "2026-10-11",
+   "verified": "2026-10-11",
+   "status": "ok"
+  },
+  {
+   "id": "stage-clip-thriller-campagne-2026-10-17",
+   "type": "stage",
+   "title": "Stage et tournage du clip « Thriller »",
+   "summary": "Stage amateur puis tournage du clip en costumes et maquillage le 18 octobre à 18h. Ouvert aux danseurs comme aux figurants d'un jour.",
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "time": "tournage 18h le 18",
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Campagne",
+   "region": "Nouvelle-Aquitaine",
+   "venue": null,
+   "styles": [
+    "jazz",
+    "commercial"
+   ],
+   "level": "amateur",
+   "price": null,
+   "free": null,
+   "organizer": null,
+   "url": "https://www.tourismelandes.com/?p=778598",
+   "via": "web",
+   "found": "2026-10-11",
+   "verified": "2026-10-11",
    "status": "ok"
   }
  ]
