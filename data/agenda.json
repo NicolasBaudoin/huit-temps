@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
  "items": [
   {
@@ -296,7 +296,7 @@
    "url": "https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/",
    "via": "web",
    "found": "2026-10-04",
-   "verified": "2026-10-11",
+   "verified": "2026-10-12",
    "status": "ok"
   },
   {
@@ -844,7 +844,7 @@
    "url": "https://www.opera.se/en/discover/our-organisation/jobs-and-auditions/dance-audition-2027-2028/",
    "via": "web",
    "found": "2026-10-05",
-   "verified": "2026-10-11",
+   "verified": "2026-10-12",
    "status": "ok",
    "id": "audition-goteborgsoperans-danskompani-2027-2028",
    "type": "audition",
@@ -1422,6 +1422,33 @@
    "via": "web",
    "found": "2026-10-11",
    "verified": "2026-10-11",
+   "status": "ok"
+  },
+  {
+   "id": "spectacle-festival-tnb-2026-11-11",
+   "type": "spectacle",
+   "title": "Festival TNB (danse, théâtre, opéra, création)",
+   "summary": "Une vingtaine de propositions pluridisciplinaires au Théâtre National de Bretagne. Programme danse pas encore détaillé.",
+   "start": "2026-11-11",
+   "end": "2026-11-22",
+   "time": null,
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Rennes",
+   "region": "Bretagne",
+   "venue": "Théâtre National de Bretagne",
+   "styles": [
+    "contemporain"
+   ],
+   "level": null,
+   "price": null,
+   "free": null,
+   "organizer": "TNB",
+   "url": "https://www.festivalenfrance.com/festival/festival-tnb",
+   "via": "web",
+   "found": "2026-10-12",
+   "verified": "2026-10-12",
    "status": "ok"
   }
  ]
