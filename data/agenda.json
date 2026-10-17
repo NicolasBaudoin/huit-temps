@@ -1587,6 +1587,62 @@
       "found": "2026-10-17",
       "verified": "2026-10-17",
       "status": "ok"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-17",
+      "verified": "2026-10-17",
+      "status": "ok",
+      "free": null,
+      "id": "battle-urban-underground-la-place-2026-11-15",
+      "type": "battle",
+      "title": "Urban Underground, battle international krump & hip-hop",
+      "summary": "Deuxième édition : une journée entière de battles krump et hip-hop à La Place, aux Halles. Les champions de l'an dernier remettent leur titre en jeu.",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "time": "12h-19h",
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "La Place, 10 passage de la Canopée",
+      "styles": [
+        "krump",
+        "hip-hop"
+      ],
+      "level": "tous",
+      "price": "15 €",
+      "organizer": "La Place",
+      "url": "https://unidivers.fr/event/urban-underground-2026-international-krump-hip-hop-battle-paris-la-place/"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-17",
+      "verified": "2026-10-17",
+      "status": "ok",
+      "free": null,
+      "id": "battle-hip-hop-games-lille-2026-12-11",
+      "type": "battle",
+      "title": "Hip Hop Games, semaine de clôture des 15 ans",
+      "summary": "Battle all style « Faut Pas S'Looper » au Flow le 11 déc. (majeurs, 5 €, jam de sélection à 19h), puis finale internationale au Grand Sud (12 déc.) et à l'Opéra de Lille (13 déc., 16h).",
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "time": "11 déc. 19h-23h (battle)",
+      "city": "Lille",
+      "region": "Hauts-de-France",
+      "venue": "Le Flow, Le Grand Sud, Opéra de Lille",
+      "styles": [
+        "all style",
+        "hip-hop"
+      ],
+      "level": "tous",
+      "price": "5 € à 12 €",
+      "organizer": "Cie Art-Track",
+      "url": "https://www.festivalenfrance.com/festival/hip-hop-games-festival"
     }
   ]
 }
