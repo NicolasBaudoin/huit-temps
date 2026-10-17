@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-17",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
   "items": [
     {
@@ -296,7 +296,7 @@
       "url": "https://www.ndt.nl/en/meet/about/vacancies/audition-ndt2/",
       "via": "web",
       "found": "2026-10-04",
-      "verified": "2026-10-12",
+      "verified": "2026-10-17",
       "status": "ok"
     },
     {
@@ -661,12 +661,12 @@
       "deadline_label": null,
       "via": "insta",
       "found": "2026-10-05",
-      "verified": "2026-10-11",
+      "verified": "2026-10-13",
       "status": "ok",
       "id": "spectacle-opera-bordeaux-soiree-roland-petit-2026-10-07",
       "type": "spectacle",
       "title": "Soirée Roland Petit, Ballet de l'Opéra National de Bordeaux",
-      "summary": "Hommage à Roland Petit : Carmen, L'Arlésienne, Thaïs et La Prisonnière.",
+      "summary": "Hommage à Roland Petit : Carmen, L'Arlésienne, Thaïs et La Prisonnière. Bon plan : 2 places achetées = -30% sur le plein tarif catégorie 1, les 12, 13 et 14 octobre.",
       "start": "2026-10-07",
       "end": "2026-10-14",
       "time": "20h",
@@ -844,7 +844,7 @@
       "url": "https://www.opera.se/en/discover/our-organisation/jobs-and-auditions/dance-audition-2027-2028/",
       "via": "web",
       "found": "2026-10-05",
-      "verified": "2026-10-12",
+      "verified": "2026-10-17",
       "status": "ok",
       "id": "audition-goteborgsoperans-danskompani-2027-2028",
       "type": "audition",
@@ -1477,6 +1477,88 @@
       "found": "2026-10-12",
       "verified": "2026-10-12",
       "status": "ok"
+    },
+    {
+      "id": "battle-bk-270-battle-floirac-2026-10-24",
+      "type": "battle",
+      "title": "BK 270 Battle",
+      "summary": "Compétition de breakdance ouverte à tous : sélection 13h30, battle 3vs3 -16 ans à 15h puis 2vs2 +16 ans. Juges : Syssy, Tom, Nasty Nath. Davy Jones aux platines, El Pistolero au micro.",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "time": "13h30 sélection, 15h début",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Floirac",
+      "region": "Nouvelle-Aquitaine",
+      "venue": "M.270, 11 av. Pierre Curie",
+      "styles": [
+        "breaking"
+      ],
+      "level": "tous",
+      "price": "3 € (gratuit -6 ans)",
+      "free": false,
+      "organizer": "Cie Les Associés Crew / Ville de Floirac",
+      "url": "https://www.instagram.com/hapfeione/p/DebT613MoxL/",
+      "via": "insta",
+      "found": "2026-10-14",
+      "verified": "2026-10-14",
+      "status": "ok"
+    },
+    {
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "price": null,
+      "free": null,
+      "via": "web",
+      "found": "2026-10-17",
+      "verified": "2026-10-17",
+      "status": "ok",
+      "level": null,
+      "id": "spectacle-murmuration-level-2-roubaix-2026-11-28",
+      "type": "spectacle",
+      "title": "Murmuration Level 2 (Sadeck Berrabah)",
+      "summary": "Hip-hop, contemporain et arts martiaux au Colisée de Roubaix. Horaire à confirmer (20h ou 16h selon les sources).",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "city": "Roubaix",
+      "region": "Hauts-de-France",
+      "venue": "Colisée",
+      "styles": [
+        "hip-hop",
+        "contemporain"
+      ],
+      "organizer": "Colisée de Roubaix",
+      "url": "https://unidivers.fr/event/murmuration-level-2-roubaix-nord-2026-11-28/"
+    },
+    {
+      "time": "20h",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "price": null,
+      "free": null,
+      "via": "web",
+      "found": "2026-10-17",
+      "verified": "2026-10-17",
+      "status": "ok",
+      "level": null,
+      "id": "spectacle-les-2010-groud-lille-2026-11-28",
+      "type": "spectacle",
+      "title": "Sylvain Groud, « Les 2010 »",
+      "summary": "Le directeur du Ballet du Nord poursuit son exploration de l'adolescence, nourrie d'entretiens menés par Samira El Ayachi.",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "city": "Lille",
+      "region": "Hauts-de-France",
+      "venue": "Le Grand Sud",
+      "styles": [
+        "contemporain"
+      ],
+      "organizer": "Ballet du Nord / LCP",
+      "url": "https://agenda-des-sorties.com/detail.php?id=346403"
     }
   ]
 }
