@@ -282,6 +282,7 @@ footer b{color:var(--ink)}
       var c=el("div","min");
       c.appendChild(el("h3",null,it.title));
       if(it.summary)c.appendChild(el("p",null,it.summary));
+      if(it.image){var im=el("img");im.src=it.image;im.alt="Affiche : "+it.title;im.loading="lazy";im.style.cssText="max-width:min(100%,320px);border:2px solid var(--ink);margin:.3rem 0";c.appendChild(im)}
       var meta=el("div","meta");
       meta.appendChild(el("span",null,LBL[it.type]||it.type));
       if(!it.rrule&&it.end&&it.end!==it.start)meta.appendChild(el("span",null,"jusqu'au "+fmt(it.end)));

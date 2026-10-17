@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-10-17",
-  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte).",
+  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
       "id": "spectacle-sharon-eyal-delay-the-sadness-2026-10-08",
@@ -357,7 +357,7 @@
       "id": "stage-move-centre-james-carles-2026-10-24",
       "type": "stage",
       "title": "Stage international d'automne « Move ! », Centre James Carlès",
-      "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan). Invitée en focus : Deewin (afrodance tous niveaux, 17h30-19h). June Vivès (contemporain et répertoire) remplacée par Arthur Bouilliol les 24 et 25 octobre.",
+      "summary": "Cinq jours avec Sylvia Waters (ex-Alvin Ailey II), Géraldine Armstrong, Dorian Rollin, June Vives, Angelo Monaco, Iman Brooks (NYC) et Filipo Franzese (Cie Akram Khan). Benoit Tardieu en guest (Lyrical Jazz). Invitée en focus : Deewin (afrodance tous niveaux, 17h30-19h). June Vivès (contemporain et répertoire) remplacée par Arthur Bouilliol les 24 et 25 octobre.",
       "start": "2026-10-24",
       "end": "2026-10-28",
       "time": "Afrodance Deewin : 17h30-19h",
@@ -379,7 +379,7 @@
       "url": "https://www.instagram.com/p/DdtGbhAFnEu/",
       "via": "insta",
       "found": "2026-10-04",
-      "verified": "2026-10-09",
+      "verified": "2026-10-17",
       "status": "ok"
     },
     {
@@ -1476,7 +1476,8 @@
       "via": "organisateur",
       "found": "2026-10-12",
       "verified": "2026-10-12",
-      "status": "ok"
+      "status": "ok",
+      "image": "assets/evenements/jeremie-parent-workshop-2026-10-25.jpg"
     },
     {
       "id": "battle-bk-270-battle-floirac-2026-10-24",
@@ -1559,6 +1560,33 @@
       ],
       "organizer": "Ballet du Nord / LCP",
       "url": "https://agenda-des-sorties.com/detail.php?id=346403"
+    },
+    {
+      "id": "training-gecko-treening-delphine-lemaitre-2026-11-06",
+      "type": "training",
+      "title": "Gecko Treening, Session 2 Vol.1 (guest Delphine Lemaître)",
+      "summary": "Training versatile par Jordan Boury : environ 3 h de talks, exercices, traversées et travail chorégraphique, puis environ 2 h de collab exclusive avec Delphine Lemaître. Places limitées. Inscription via le lien en bio de @jordan_boury et @bouryverse.",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "time": "12h30-17h30",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "LAX Studio",
+      "styles": [
+        "versatile"
+      ],
+      "level": "pre-pro",
+      "price": "55 € (session unique)",
+      "free": false,
+      "organizer": "Jordan Boury (@bouryverse)",
+      "url": "https://www.instagram.com/bouryverse/p/Dee2zCnupvV/",
+      "via": "insta",
+      "found": "2026-10-17",
+      "verified": "2026-10-17",
+      "status": "ok"
     }
   ]
 }
