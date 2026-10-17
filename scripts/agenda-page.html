@@ -95,7 +95,7 @@
       var c=el("div","min");
       c.appendChild(el("h3",null,it.title));
       if(it.summary)c.appendChild(el("p",null,it.summary));
-      if(it.image){var im=el("img");im.src=it.image;im.alt="Affiche : "+it.title;im.loading="lazy";im.style.cssText="max-width:min(100%,320px);border:2px solid var(--ink);margin:.3rem 0";var lk=el("a");lk.href=it.image;lk.target="_blank";lk.rel="noopener";lk.title="Agrandir l affiche";im.style.cursor="zoom-in";lk.appendChild(im);c.appendChild(lk);c.appendChild(el("p","meta","🔍 Touche l affiche pour l agrandir"))}
+      if(it.image){var im=el("img");im.src=it.image;im.alt="Affiche : "+it.title;im.loading="lazy";im.style.cssText="max-width:min(100%,320px);border:2px solid var(--ink);margin:.3rem 0";var lk=el("a");lk.href=it.image;lk.target="_blank";lk.rel="noopener";lk.title="Agrandir l affiche";lk.setAttribute("data-zoom","");im.style.cursor="zoom-in";lk.appendChild(im);c.appendChild(lk);c.appendChild(el("p","meta","🔍 Touche l affiche pour l agrandir"))}
       var meta=el("div","meta");
       meta.appendChild(el("span",null,LBL[it.type]||it.type));
       if(!it.rrule&&it.end&&it.end!==it.start)meta.appendChild(el("span",null,"jusqu'au "+fmt(it.end)));
@@ -125,5 +125,26 @@
   }).catch(function(){$("count").textContent="Impossible de charger l'agenda pour le moment."});
   document.querySelectorAll("#types .chip").forEach(function(b){b.addEventListener("click",function(){b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")==="true"?"false":"true");render()})});
   ["f-region","f-style","f-free","f-dl"].forEach(function(id){$(id).addEventListener("change",render)});
+})();
+
+// Visionneuse d'affiches (lightbox) : liens a[data-zoom]
+(function(){
+  var ov=null;
+  function close(){ if(ov){ ov.remove(); ov=null; document.body.style.overflow=""; } }
+  document.addEventListener("click",function(e){
+    var a=e.target.closest&&e.target.closest("a[data-zoom]"); if(!a) return;
+    e.preventDefault(); close();
+    ov=document.createElement("div");
+    ov.setAttribute("role","dialog"); ov.setAttribute("aria-label","Affiche en grand");
+    ov.style.cssText="position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out;animation:lbIn .18s ease-out";
+    var im=document.createElement("img"); im.src=a.getAttribute("href"); im.alt=(a.querySelector("img")||{}).alt||"Affiche";
+    im.style.cssText="max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 10px 40px rgba(0,0,0,.6)";
+    var x=document.createElement("button"); x.type="button"; x.textContent="✕"; x.setAttribute("aria-label","Fermer");
+    x.style.cssText="position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:14px;background:none;border:0;color:#fff;font-size:34px;line-height:1;cursor:pointer";
+    ov.appendChild(im); ov.appendChild(x); ov.addEventListener("click",close);
+    document.body.appendChild(ov); document.body.style.overflow="hidden"; x.focus();
+  });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape") close(); });
+  var st=document.createElement("style"); st.textContent="@keyframes lbIn{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){[role=dialog]{animation:none!important}}"; document.head.appendChild(st);
 })();
 </script>
