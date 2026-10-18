@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -1299,7 +1299,7 @@
       "organizer": "LAX Studio",
       "via": "insta",
       "found": "2026-10-10",
-      "verified": "2026-10-10",
+      "verified": "2026-10-18",
       "status": "ok",
       "end": "2026-10-29",
       "time": null,
@@ -1455,7 +1455,7 @@
       "id": "stage-jeremie-parent-decroche-ton-premier-contrat-2026-10-25",
       "type": "stage",
       "title": "Workshop en ligne « Décroche ton premier contrat de danse », avec Jérémie Parent",
-      "summary": "Préparer ses candidatures et ses auditions pros : choisir ses extraits vidéo, valoriser son CV, comprendre les attentes des chorégraphes, cibler les bons projets. Par Jérémie Parent (danseur pour Christine and the Queens, chorégraphe pour Just Dance). Petit groupe de 8, plan d action en PDF à la clé.",
+      "summary": "Préparer ses candidatures et ses auditions pros : choisir ses extraits vidéo, valoriser son CV, comprendre les attentes des chorégraphes, cibler les bons projets. Par Jérémie Parent (danseur pour Christine and the Queens, chorégraphe pour Just Dance). Petit groupe de 8, plan d’action en PDF à la clé.",
       "start": "2026-10-25",
       "end": "2026-10-25",
       "time": "18h-20h (heure de Paris)",
