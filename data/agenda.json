@@ -269,7 +269,7 @@
       "url": "https://www.labiennale.org/en/news/national-and-international-calls-two-new-choreographic-works-1",
       "via": "web",
       "found": "2026-10-04",
-      "verified": "2026-10-11",
+      "verified": "2026-10-18",
       "status": "ok"
     },
     {
@@ -844,7 +844,7 @@
       "url": "https://www.opera.se/en/discover/our-organisation/jobs-and-auditions/dance-audition-2027-2028/",
       "via": "web",
       "found": "2026-10-05",
-      "verified": "2026-10-17",
+      "verified": "2026-10-18",
       "status": "ok",
       "id": "audition-goteborgsoperans-danskompani-2027-2028",
       "type": "audition",
@@ -1047,12 +1047,12 @@
       "deadline": null,
       "deadline_label": null,
       "time": "15h",
-      "price": null,
-      "free": null,
+      "price": "12 € / 8 €",
+      "free": false,
       "level": "tous",
       "via": "web",
       "found": "2026-10-07",
-      "verified": "2026-10-07",
+      "verified": "2026-10-18",
       "status": "ok",
       "end": "2026-10-24",
       "id": "battle-battle-international-ales-2026-10-24",
@@ -1338,7 +1338,7 @@
       "url": "https://www.guide-du-paysbasque.com/fr/agenda/danse/bayonne-52/beat-street-day-battle-134581.html",
       "via": "web",
       "found": "2026-10-10",
-      "verified": "2026-10-11",
+      "verified": "2026-10-18",
       "status": "ok"
     },
     {
