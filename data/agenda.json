@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -1643,6 +1643,114 @@
       "price": "5 € à 12 €",
       "organizer": "Cie Art-Track",
       "url": "https://www.festivalenfrance.com/festival/hip-hop-games-festival"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "insta",
+      "found": "2026-10-19",
+      "verified": "2026-10-19",
+      "status": "ok",
+      "free": false,
+      "level": "tous",
+      "time": "14h-16h et 16h30-18h30",
+      "id": "stage-workshop-bboy-thias-merignac-2026-11-29",
+      "type": "stage",
+      "title": "Workshops B-Boy Thias (top rock, musicalité, training)",
+      "summary": "Deux workshops : 14h-16h top rock, musicalité, go down / go up (tous niveaux et intermédiaire) ; 16h30-18h30 méthodologie training, variantes de step (intermédiaire et confirmé). Inscription : lequatriemeart@hotmail.fr / 06 52 02 04 93.",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "city": "Mérignac",
+      "region": "Nouvelle-Aquitaine",
+      "venue": "Salles de danse Maison ALG, 5 rue Georges Mandel",
+      "styles": [
+        "breaking"
+      ],
+      "price": "15 € le stage, 20 € les deux",
+      "organizer": "Cie Les Associés Crew et association 4ème Art",
+      "url": "https://www.instagram.com/hapfeione/p/DeOj6eqM4Fw/"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "insta",
+      "found": "2026-10-19",
+      "verified": "2026-10-19",
+      "status": "ok",
+      "free": null,
+      "level": null,
+      "time": null,
+      "id": "battle-juste-debout-london-2027-03-07",
+      "type": "battle",
+      "title": "Juste Debout London (World Tour 2026-2027)",
+      "summary": "Étape londonienne du Juste Debout World Tour, annoncée le 15 octobre. Plus d'informations à venir.",
+      "start": "2027-03-07",
+      "end": "2027-03-07",
+      "city": "Londres",
+      "region": "Royaume-Uni",
+      "venue": null,
+      "styles": [
+        "hip-hop",
+        "street"
+      ],
+      "organizer": "Juste Debout",
+      "url": "https://www.instagram.com/justedebout_officiel/p/Dejsg9otHAI/"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "insta",
+      "found": "2026-10-19",
+      "verified": "2026-10-19",
+      "status": "ok",
+      "free": false,
+      "level": "pro",
+      "time": null,
+      "id": "battle-bbf-finale-lille-2026-12-12",
+      "type": "battle",
+      "title": "Grande finale Battle Breaking France (BBF) 2026",
+      "summary": "B-Girl Keziah (Last Squad, Bordeaux) a gagné la qualification BBF Nouvelle-Aquitaine et représentera la région à la finale. Billetterie : lien en bio de @bboyfrance.",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "city": "Lille",
+      "region": "Hauts-de-France",
+      "venue": null,
+      "styles": [
+        "breaking"
+      ],
+      "organizer": "BBF (Breaking France)",
+      "url": "https://www.instagram.com/bboyfrance/reel/DepXK9yRlGA/"
+    },
+    {
+      "id": "spectacle-freestyle-6eme-dimension-magny-2026-11-20",
+      "type": "spectacle",
+      "title": "« Freestyle » (Séverine Bidaud, Cie 6ème Dimension)",
+      "summary": "Spectacle hip-hop familial avec trois danseurs : un breaker, un danseur/MC et un danseur/DJ.",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Magny-les-Hameaux",
+      "region": "Île-de-France",
+      "venue": null,
+      "styles": [
+        "hip-hop",
+        "breaking"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "Cie 6ème Dimension",
+      "url": "https://magny-les-hameaux.fr/print/pdf/node/8147",
+      "via": "web",
+      "found": "2026-10-19",
+      "verified": "2026-10-19",
+      "status": "ok"
     }
   ]
 }
