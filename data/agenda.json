@@ -433,7 +433,7 @@
       "url": "https://www.macommune.info/agenda/casting-comedie-musicale-une-vie-sous-les-planches/",
       "via": "web",
       "found": "2026-10-04",
-      "verified": "2026-10-04",
+      "verified": "2026-10-25",
       "status": "ok"
     },
     {
@@ -1338,7 +1338,7 @@
       "url": "https://www.guide-du-paysbasque.com/fr/agenda/danse/bayonne-52/beat-street-day-battle-134581.html",
       "via": "web",
       "found": "2026-10-10",
-      "verified": "2026-10-18",
+      "verified": "2026-10-25",
       "status": "ok"
     },
     {
@@ -2072,6 +2072,87 @@
       "found": "2026-10-25",
       "verified": "2026-10-25",
       "status": "ok"
+    },
+    {
+      "time": "à partir de 12h-13h30 selon les sources",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-25",
+      "verified": "2026-10-25",
+      "status": "ok",
+      "id": "battle-chill-in-the-city-chaillot-2026-12-19",
+      "type": "battle",
+      "title": "Chill in the City (La Place × Breakleague)",
+      "summary": "12e édition du battle breaking de La Place et Breakleague, à Chaillot – Théâtre national de la Danse. Qualifications l’après-midi, top 8 en soirée puis Open Party. Gratuit sur inscription via le site de Chaillot, dès 8 ans.",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "Chaillot – Théâtre national de la Danse",
+      "styles": [
+        "breaking"
+      ],
+      "level": "tous",
+      "price": "Gratuit sur inscription",
+      "free": true,
+      "organizer": "La Place / Breakleague / Chaillot",
+      "url": "https://www.paris.fr/evenements/chill-in-the-city-de-la-place-breakleague-112469"
+    },
+    {
+      "time": "20h (matinée le 3 janvier)",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-25",
+      "verified": "2026-10-25",
+      "status": "ok",
+      "id": "spectacle-lac-des-cygnes-opera-bordeaux-2026-12-09",
+      "type": "spectacle",
+      "title": "« Le Lac des cygnes », Ballet de l’Opéra national de Bordeaux",
+      "summary": "Nouvelle version signée Rachel Beaujean et Colin Richmond, coproduite avec le Northern Ballet, où Odette choisit au lieu de subir. Rencontre avec les artistes le 9 décembre à 18h30.",
+      "start": "2026-12-09",
+      "end": "2027-01-03",
+      "city": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "venue": "Grand-Théâtre",
+      "styles": [
+        "classique"
+      ],
+      "level": null,
+      "price": null,
+      "free": false,
+      "organizer": "Opéra national de Bordeaux",
+      "url": "https://unidivers.fr/event/le-lac-des-cygnes-grand-theatre-bordeaux-2026-12-09t2000000100/"
+    },
+    {
+      "time": "19h (ballet) et 21h (cabaret)",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-25",
+      "verified": "2026-10-25",
+      "status": "ok",
+      "id": "spectacle-millepied-folies-bergere-2026-11-09",
+      "type": "spectacle",
+      "title": "Benjamin Millepied aux Folies Bergère",
+      "summary": "Trois créations : « Barbara, du bout des lèvres » (9-22 nov.), « Summerland » avec November Ultra (24-29 nov.) à 19h, puis le cabaret « Move Me Once More » à 21h, avec une offre couplée.",
+      "start": "2026-11-09",
+      "end": "2026-11-29",
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "Folies Bergère",
+      "styles": [
+        "contemporain"
+      ],
+      "level": null,
+      "price": null,
+      "free": false,
+      "organizer": "Benjamin Millepied",
+      "url": "https://www.sortiraparis.com/en/what-to-see-in-paris/shows/articles/355063-benjamin-millepied-three-shows-at-the-folies-bergere"
     }
   ]
 }
