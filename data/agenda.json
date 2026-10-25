@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -1774,7 +1774,7 @@
       "url": "https://www.instagram.com/lax_studio_events/reel/Derr9UpsiUD/",
       "via": "insta",
       "found": "2026-10-20",
-      "verified": "2026-10-20",
+      "verified": "2026-10-25",
       "status": "ok"
     },
     {
@@ -1799,7 +1799,7 @@
       "url": "https://www.instagram.com/lax_studio_events/reel/Ders4kxMXo_/",
       "via": "insta",
       "found": "2026-10-20",
-      "verified": "2026-10-20",
+      "verified": "2026-10-25",
       "status": "ok"
     },
     {
@@ -2045,6 +2045,33 @@
       "region": "Île-de-France",
       "organizer": null,
       "url": "https://www.enghienlesbains-tourisme.fr/en/?p=4664"
+    },
+    {
+      "id": "battle-suresnes-danse-2027-01-31",
+      "type": "battle",
+      "title": "Suresnes Danse (battle par équipes de deux)",
+      "summary": "Battle avec DJ, jury et MC, tous styles du hip-hop au classique, clôture de Suresnes Cités Danse. Date issue d'une seule billetterie, à confirmer.",
+      "start": "2027-01-31",
+      "end": null,
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Suresnes",
+      "region": "Île-de-France",
+      "venue": "Salle des Fêtes de Suresnes",
+      "styles": [
+        "all style"
+      ],
+      "level": "tous",
+      "price": "dès 13,5 €",
+      "free": false,
+      "organizer": "Théâtre de Suresnes Jean-Vilar",
+      "url": "https://www.offi.fr/theatre/salle-des-fetes-de-suresnes-7045/battle-suresnes-danse-107214.html",
+      "via": "web",
+      "found": "2026-10-25",
+      "verified": "2026-10-25",
+      "status": "ok"
     }
   ]
 }
