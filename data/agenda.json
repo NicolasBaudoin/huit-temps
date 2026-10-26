@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -2153,6 +2153,87 @@
       "free": false,
       "organizer": "Benjamin Millepied",
       "url": "https://www.sortiraparis.com/en/what-to-see-in-paris/shows/articles/355063-benjamin-millepied-three-shows-at-the-folies-bergere"
+    },
+    {
+      "time": "20h30",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Toulouse",
+      "region": "Occitanie",
+      "via": "insta",
+      "found": "2026-10-26",
+      "verified": "2026-10-26",
+      "status": "ok",
+      "organizer": "Centre Chorégraphique James Carlès",
+      "id": "spectacle-drum-calls-body-recalls-toulouse-2026-10-26",
+      "type": "spectacle",
+      "title": "Drum Calls / Body Recalls, film et conférence (Festival Danses et Continents Noirs #28)",
+      "summary": "Film et conférence de Deirdre Molloy autour de la Unity Atlantic Rhythm Map, invitée par James Carlès.",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "venue": "MAC Chapou",
+      "styles": [
+        "danses afro-diasporiques"
+      ],
+      "level": null,
+      "price": "10 € (gratuit pour les étudiant·es)",
+      "free": false,
+      "url": "https://www.instagram.com/centrejamescarles/p/De7CZxaiLDX/"
+    },
+    {
+      "time": "19h45",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Toulouse",
+      "region": "Occitanie",
+      "via": "insta",
+      "found": "2026-10-26",
+      "verified": "2026-10-26",
+      "status": "ok",
+      "organizer": "Centre Chorégraphique James Carlès",
+      "id": "spectacle-restitution-stage-automne-dcn-toulouse-2026-10-27",
+      "type": "spectacle",
+      "title": "Restitution publique du stage d'automne (Festival Danses et Continents Noirs #28)",
+      "summary": "Restitution du travail des stagiaires après la masterclass de Dorian Rollin.",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "venue": "Gymnase du Bazacle",
+      "styles": [
+        "contemporain"
+      ],
+      "level": null,
+      "price": "Entrée libre",
+      "free": true,
+      "url": "https://www.instagram.com/centrejamescarles/reel/De7ZSnAEaW6/"
+    },
+    {
+      "id": "battle-battle-hip-hop-magny-les-hameaux-2026-11-21",
+      "type": "battle",
+      "title": "Battle hip-hop de Magny-les-Hameaux (avec l'association H2G, au profit du Secours Populaire)",
+      "summary": "Battle hip-hop, inscriptions sur place à partir de 13h.",
+      "start": "2026-11-21",
+      "end": null,
+      "time": "Inscriptions dès 13h",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": "Inscription sur place dès 13h",
+      "city": "Magny-les-Hameaux",
+      "region": "Île-de-France",
+      "venue": null,
+      "styles": [
+        "hip-hop"
+      ],
+      "level": null,
+      "price": null,
+      "free": null,
+      "organizer": "Ville de Magny-les-Hameaux / H2G",
+      "url": "https://magny-les-hameaux.fr/print/pdf/node/8148",
+      "via": "web",
+      "found": "2026-10-26",
+      "verified": "2026-10-26",
+      "status": "ok"
     }
   ]
 }
