@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -1158,7 +1158,7 @@
       "id": "battle-juste-debout-finales-paris-2027-03-13",
       "type": "battle",
       "title": "Juste Debout, Finales mondiales 2027",
-      "summary": "Billetterie ouverte (lien envoyé en DM en commentant « FINAL »). Panel de juges complet : Jean-Michel Cruel nommé juge Hip-Hop officiel.",
+      "summary": "Billetterie ouverte (lien envoyé en DM en commentant « FINAL »). Panel de juges complet : Jean-Michel Cruel nommé juge Hip-Hop officiel. Programme de la Paris dance week publié le 26 oct (quarts aux finales, deux jours).",
       "start": "2027-03-13",
       "end": "2027-03-14",
       "time": null,
@@ -1167,7 +1167,7 @@
       "deadline_label": "Fin du tarif Early Bird (post du 9 oct : « 24 h restantes »)",
       "city": "Paris",
       "region": "Île-de-France",
-      "venue": null,
+      "venue": "Stade Pierre de Coubertin",
       "styles": [
         "hip-hop",
         "street"
@@ -1179,7 +1179,7 @@
       "url": "https://www.instagram.com/justedebout_officiel/p/DePph4BEey9/",
       "via": "insta",
       "found": "2026-10-09",
-      "verified": "2026-10-10",
+      "verified": "2026-10-27",
       "status": "ok"
     },
     {
@@ -2233,6 +2233,60 @@
       "via": "web",
       "found": "2026-10-26",
       "verified": "2026-10-26",
+      "status": "ok"
+    },
+    {
+      "id": "battle-douvesit-2vs2-musique-classique-bordeaux-2026-12-05",
+      "type": "battle",
+      "title": "Battle all style 2vs2 sur musique classique live (Douves'It)",
+      "summary": "Fish & Shoes et Caprices de Marianne, dans Douves'It (événement phare de La Halle des Douves). 4 binômes adhérents Fish & Shoes recherchés pour les demi-finales, les 4 premiers inscrits (par DM) participent. Communication officielle à venir.",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "time": "finale à 17h",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": "Inscription par DM, 4 premiers binômes",
+      "city": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "venue": "Halle des Douves",
+      "styles": [
+        "all style"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "Fish & Shoes / Caprices de Marianne",
+      "url": "https://www.instagram.com/fishandshoes/p/De9wUuGo0S-/",
+      "via": "insta",
+      "found": "2026-10-27",
+      "verified": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "id": "spectacle-festival-kalypso-2026-11-01",
+      "type": "spectacle",
+      "title": "Festival Kalypso, 14e édition",
+      "summary": "Hip-hop en Île-de-France : 18 compagnies, une vingtaine de spectacles dans 25 lieux de cinq départements, avec un Marathon de la Danse. Porté par le CCN de Créteil et du Val-de-Marne (Cie Käfig).",
+      "start": "2026-11-01",
+      "end": "2026-12-12",
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Créteil",
+      "region": "Île-de-France",
+      "venue": "25 lieux, 5 départements",
+      "styles": [
+        "hip-hop"
+      ],
+      "level": null,
+      "price": null,
+      "free": null,
+      "organizer": "CCN de Créteil et du Val-de-Marne / Cie Käfig",
+      "url": "https://www.iledefrance.fr/tous-les-services/ma-region-pres-de-chez-moi/culture/spectacle-vivant/255106-festival-kalypso-2026",
+      "via": "web",
+      "found": "2026-10-27",
+      "verified": "2026-10-27",
       "status": "ok"
     }
   ]
