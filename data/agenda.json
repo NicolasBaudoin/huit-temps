@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -2288,6 +2288,87 @@
       "found": "2026-10-27",
       "verified": "2026-10-27",
       "status": "ok"
+    },
+    {
+      "id": "stage-workshop-jm-yrreverre-lax-studio-2026-11-18",
+      "type": "stage",
+      "title": "Workshop JM Yrreverre, LAX Studio",
+      "summary": "Workshop avec JM Yrreverre (@jmyrreverre) au LAX Studio. Inscriptions ouvertes sur l'application mobile du LAX Studio.",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "time": "20h30",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "LAX Studio (Villa Riberolle, Paris 20e)",
+      "styles": [],
+      "level": null,
+      "price": null,
+      "free": null,
+      "organizer": "LAX Studio",
+      "url": "https://www.instagram.com/lax_studio_events/reel/DfAf6AMsN-G/",
+      "via": "insta",
+      "found": "2026-10-28",
+      "verified": "2026-10-28",
+      "status": "ok"
+    },
+    {
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Castelnau-le-Lez",
+      "region": "Occitanie",
+      "venue": null,
+      "styles": [
+        "flamenco",
+        "danses du monde"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "Festival Flamenco Montpellier Métropole",
+      "url": "https://www.tourisme-occitanie.com/fr/fiche/fete-et-manifestation/festival-flamenco-montpellier-metropole-castelnau-le-lez_TFOFMALAR034V52VK05/",
+      "via": "web",
+      "found": "2026-10-28",
+      "verified": "2026-10-28",
+      "status": "ok",
+      "id": "stage-flamenco-alberto-selles-2026-11-14",
+      "type": "stage",
+      "title": "Stage flamenco avec Alberto Selles (Festival Flamenco Montpellier Métropole)",
+      "summary": "Stage pendant la 6e édition du festival (13-22 novembre).",
+      "start": "2026-11-14",
+      "end": "2026-11-15"
+    },
+    {
+      "time": null,
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Castelnau-le-Lez",
+      "region": "Occitanie",
+      "venue": null,
+      "styles": [
+        "flamenco",
+        "danses du monde"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "Festival Flamenco Montpellier Métropole",
+      "url": "https://www.tourisme-occitanie.com/fr/fiche/fete-et-manifestation/festival-flamenco-montpellier-metropole-castelnau-le-lez_TFOFMALAR034V52VK05/",
+      "via": "web",
+      "found": "2026-10-28",
+      "verified": "2026-10-28",
+      "status": "ok",
+      "id": "stage-flamenco-pastora-galvan-2026-11-21",
+      "type": "stage",
+      "title": "Stage flamenco avec Pastora Galván (Festival Flamenco Montpellier Métropole)",
+      "summary": "Stage pendant la 6e édition du festival (13-22 novembre).",
+      "start": "2026-11-21",
+      "end": "2026-11-22"
     }
   ]
 }
