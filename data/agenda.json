@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -2369,6 +2369,33 @@
       "summary": "Stage pendant la 6e édition du festival (13-22 novembre).",
       "start": "2026-11-21",
       "end": "2026-11-22"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-10-29",
+      "verified": "2026-10-29",
+      "status": "ok",
+      "free": null,
+      "level": null,
+      "time": null,
+      "price": null,
+      "id": "spectacle-danse-avec-les-stars-clermont-2026-12-15",
+      "type": "spectacle",
+      "title": "Danse avec les stars, la tournée",
+      "summary": "Tournée des danseurs de l'émission, étape à la Maison de la Culture de Clermont-Ferrand.",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "venue": "Maison de la Culture",
+      "city": "Clermont-Ferrand",
+      "region": "Auvergne-Rhône-Alpes",
+      "styles": [
+        "danses de salon"
+      ],
+      "organizer": null,
+      "url": "https://unidivers.fr/event/danse-avec-les-stars-maison-de-la-culture-clermont-ferrand-2026-12-15/"
     }
   ]
 }
