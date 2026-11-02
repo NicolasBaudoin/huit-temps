@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -2773,6 +2773,61 @@
       "level": "pro",
       "organizer": "Compagnie Tché-Za",
       "url": "https://www.cnd.fr/fr/auditions-offres-emploi/danseureuses-creation-get-krump-fhx"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "time": null,
+      "price": "13,5 à 26,5 €",
+      "free": null,
+      "level": null,
+      "via": "web",
+      "found": "2026-11-02",
+      "verified": "2026-11-02",
+      "status": "ok",
+      "id": "spectacle-how-romantic-andreou-gennevilliers-2026-11-19",
+      "type": "spectacle",
+      "title": "Katerina Andreou, « How Romantic » (Carte Blanche)",
+      "summary": "Création pour quatorze interprètes, inspirée des marathons de danse de la Grande Dépression. Aussi au Havre le 13 novembre.",
+      "start": "2026-11-19",
+      "end": "2026-11-21",
+      "city": "Gennevilliers",
+      "region": "Île-de-France",
+      "venue": "Théâtre de Gennevilliers",
+      "styles": [
+        "contemporain"
+      ],
+      "organizer": "Théâtre de Gennevilliers",
+      "url": "https://www.offi.fr/theatre/theatre-de-gennevilliers-4007/how-romantic-107145.html"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "time": null,
+      "price": null,
+      "free": null,
+      "level": null,
+      "via": "web",
+      "found": "2026-11-02",
+      "verified": "2026-11-02",
+      "status": "ok",
+      "id": "spectacle-festival-decadanse-brest-2027-01-29",
+      "type": "spectacle",
+      "title": "Festival Décadanse, 6e édition",
+      "summary": "Sept spectacles mêlant danse contemporaine et hip-hop dans la métropole brestoise, Plouzané rejoint le festival.",
+      "start": "2027-01-29",
+      "end": null,
+      "city": "Brest",
+      "region": "Bretagne",
+      "venue": "Salles de la métropole brestoise",
+      "styles": [
+        "contemporain",
+        "hip-hop"
+      ],
+      "organizer": "Le Mac Orlan",
+      "url": "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/festival-decadanse-6-eme-edition-brest-fr-6761432/"
     }
   ]
 }
