@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -3445,6 +3445,91 @@
       "city": "Paris",
       "region": "Île-de-France",
       "url": "https://www.artcena.fr/annonces/auditions/danseureuses/circassiennes"
+    },
+    {
+      "id": "stage-ana-riera-william-arese-la-planche-2026-11-29",
+      "type": "stage",
+      "title": "Stage Ana Riera & William Arese",
+      "summary": "Stage avec Ana Riera et William Arese, danseurs de l’émission et de la tournée Danse avec les stars. 12h30-14h : jive ou rumba avec Ana. 14h30-16h : commercial avec William. 16h30-18h : partnering avec Ana et William. À partir de 11 ans.",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "time": "12h30-18h",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "La Planche",
+      "region": "Pays de la Loire",
+      "venue": "Complexe sportif, rue du Stade",
+      "styles": [
+        "jive",
+        "rumba",
+        "commercial",
+        "partnering"
+      ],
+      "level": null,
+      "price": "Adhérents : 25 € (1 cours), 45 € (2), 60 € (3). Non-adhérents : 30 €, 50 €, 65 €.",
+      "free": false,
+      "organizer": "Fan Danse La Planche (@fandanse_laplanche)",
+      "url": "https://www.instagram.com/fandanse_laplanche/",
+      "via": "insta",
+      "found": "2026-11-09",
+      "verified": "2026-11-09",
+      "status": "ok"
+    },
+    {
+      "rrule": null,
+      "deadline": "2026-11-20",
+      "deadline_label": "Inscription au tarif dégressif",
+      "time": null,
+      "free": null,
+      "via": "web",
+      "found": "2026-11-10",
+      "verified": "2026-11-10",
+      "status": "ok",
+      "id": "stage-claquettes-chant-village-de-la-danse-agnac-2026-12-05",
+      "type": "stage",
+      "title": "Stage claquettes, chant, jazz cabaret et body percussion (Fabrice Martin)",
+      "summary": "Stage du Village de la Danse à Agnac, tarif dégressif selon le nombre de cours si inscription avant le 20 novembre.",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "city": "Agnac",
+      "region": "Nouvelle-Aquitaine",
+      "venue": null,
+      "styles": [
+        "claquettes",
+        "jazz"
+      ],
+      "level": "tous",
+      "price": null,
+      "organizer": "Le Village de la Danse",
+      "url": "https://www.helloasso.com/associations/le-village-de-la-danse/evenements/stage-claquettes-et-chant"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "time": null,
+      "free": null,
+      "via": "web",
+      "found": "2026-11-10",
+      "verified": "2026-11-10",
+      "status": "ok",
+      "id": "stage-modernjazz-alain-gruttadauria-dkdanse-perigueux-2026-12-05",
+      "type": "stage",
+      "title": "Stage de modern'jazz avec Alain Gruttadauria",
+      "summary": "Deux jours de modern'jazz à Périgueux, niveaux moyen, intermédiaire et avancé, horaires par niveau.",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "city": "Périgueux",
+      "region": "Nouvelle-Aquitaine",
+      "venue": null,
+      "styles": [
+        "modern jazz"
+      ],
+      "level": "tous",
+      "price": null,
+      "organizer": "DKDanse",
+      "url": "https://www.dordogne-perigord-tourisme.fr/offres/stage-de-modernjazz-alain-gruttadauria-dkdanse-perigueux-perigueux-fr-6760446/"
     }
   ]
 }
