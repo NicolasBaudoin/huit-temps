@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -3530,6 +3530,85 @@
       "price": null,
       "organizer": "DKDanse",
       "url": "https://www.dordogne-perigord-tourisme.fr/offres/stage-de-modernjazz-alain-gruttadauria-dkdanse-perigueux-perigueux-fr-6760446/"
+    },
+    {
+      "id": "stage-noel-jeunes-studio-attitude-2026-12-20",
+      "type": "stage",
+      "title": "Stage jeunes de Noël, Studio Attitude",
+      "summary": "Journée danse, goûter, ateliers créatifs et animations, déguisements de Noël bienvenus, pique-nique à prévoir. Billetterie ouverte (lien en bio).",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "time": "10h-17h",
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "city": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "venue": null,
+      "styles": [],
+      "level": "amateur",
+      "price": null,
+      "free": false,
+      "organizer": "Studio Attitude",
+      "url": "https://www.instagram.com/studioattitude_officiel/p/DfkF1_8CC-J/",
+      "via": "insta",
+      "found": "2026-11-11",
+      "verified": "2026-11-11",
+      "status": "ok"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-11-11",
+      "verified": "2026-11-11",
+      "status": "ok",
+      "end": "2026-12-12",
+      "id": "battle-session-europe-5-boulogne-2026-12-12",
+      "type": "battle",
+      "title": "Battle Session Europe #5",
+      "summary": "Battle hip-hop au Carré Sam, accès libre en continu de 14h à 18h, dès 6 ans. Aucune inscription mentionnée sur la fiche.",
+      "start": "2026-12-12",
+      "time": "14h-18h",
+      "city": "Boulogne-sur-Mer",
+      "region": "Hauts-de-France",
+      "venue": "Carré Sam",
+      "styles": [
+        "hip-hop"
+      ],
+      "level": "tous",
+      "price": "Gratuit",
+      "free": true,
+      "organizer": null,
+      "url": "https://unidivers.fr/event/battle-session-europe-5-carre-sam-boulogne-sur-mer-2026-12-12t1400000100/"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "web",
+      "found": "2026-11-11",
+      "verified": "2026-11-11",
+      "status": "ok",
+      "end": "2026-12-01",
+      "id": "spectacle-kader-attou-prelude-tournefeuille-2026-12-01",
+      "type": "spectacle",
+      "title": "« Prélude » de Kader Attou",
+      "summary": "Spectacle hip-hop de Kader Attou à L'Escale, à Tournefeuille.",
+      "start": "2026-12-01",
+      "time": "20h30",
+      "city": "Tournefeuille",
+      "region": "Occitanie",
+      "venue": "L'Escale",
+      "styles": [
+        "hip-hop"
+      ],
+      "level": null,
+      "price": null,
+      "free": null,
+      "organizer": null,
+      "url": "https://metropole.toulouse.fr/agenda/spectacle-de-danse-prelude-mardi-1-decembre"
     }
   ]
 }
