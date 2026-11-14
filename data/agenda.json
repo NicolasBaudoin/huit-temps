@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
   "items": [
     {
@@ -3745,7 +3745,7 @@
       "id": "actu-en-vie-urbaine-20-ans-niort-2026-12-18",
       "type": "actu",
       "title": "20 ans d'activisme hip-hop de l'association En Vie Urbaine",
-      "summary": "Soirée anniversaire pour les 20 ans de l'association En Vie Urbaine au Camji. Programme non précisé dans le post.",
+      "summary": "Soirée anniversaire pour les 20 ans de l'association En Vie Urbaine au Camji. Soirée au Camji : dj sets, open mics, live band, show scratch du champion DMC DJ Nestmusik, entrée à prix libre.",
       "start": "2026-12-18",
       "end": null,
       "time": null,
@@ -3759,13 +3759,13 @@
         "hip-hop"
       ],
       "level": "tous",
-      "price": null,
+      "price": "Prix libre",
       "free": null,
       "organizer": "En Vie Urbaine (@envieurbaine)",
       "url": "https://www.instagram.com/envieurbaine/reel/DfpC311s6cS/",
       "via": "insta",
       "found": "2026-11-13",
-      "verified": "2026-11-13",
+      "verified": "2026-11-14",
       "status": "ok"
     },
     {
@@ -3847,6 +3847,62 @@
         "somatique"
       ],
       "url": "https://www.helloasso.com/associations/mouvimento/evenements/stage-fascia-danse-21-et-22-novembre-2026"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": null,
+      "via": "insta",
+      "found": "2026-11-14",
+      "verified": "2026-11-14",
+      "status": "ok",
+      "id": "stage-workshop-tyresse-hare-lax-2026-11-27",
+      "type": "stage",
+      "title": "Workshop Tyresse Hare, LAX Studio",
+      "summary": "Workshop avec Tyresse Hare au LAX Studio. Inscriptions ouvertes sur l'application mobile du LAX Studio.",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "time": "20h30",
+      "city": "Paris",
+      "region": "Île-de-France",
+      "venue": "LAX Studio",
+      "styles": [
+        "urbain"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "LAX Studio",
+      "url": "https://www.instagram.com/lax_studio_events/reel/DfsMgptM9D5/"
+    },
+    {
+      "rrule": null,
+      "deadline": null,
+      "deadline_label": "Confirmer ses disponibilités par mail avant les répétitions du 21 novembre",
+      "via": "insta",
+      "found": "2026-11-14",
+      "verified": "2026-11-14",
+      "status": "ok",
+      "id": "actu-bal-a-skorp-bayonne-2026-11-27",
+      "type": "actu",
+      "title": "Le Bal à Skorp, appel à participation (Musée Bonnat-Helleu)",
+      "summary": "Appel à danseurs tous styles pour une chorégraphie d'ouverture puis un bal (danse collective, freestyle, battle exhibition) pour le 1er anniversaire de la réouverture du musée. Répétitions à Biarritz les 21 et 22 novembre (15h-18h, Studio Kléber). Candidature par mail à Skorp'eidon.",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "time": "Chorégraphie 19h, bal 19h-21h",
+      "city": "Bayonne",
+      "region": "Nouvelle-Aquitaine",
+      "venue": "Musée Bonnat-Helleu",
+      "styles": [
+        "hip-hop",
+        "contemporain",
+        "urbain"
+      ],
+      "level": "tous",
+      "price": null,
+      "free": null,
+      "organizer": "Cie Skorp'eidon",
+      "url": "https://www.instagram.com/skorpiondancer/p/DfsJnG4iAGx/"
     }
   ]
 }
