@@ -996,7 +996,7 @@
    "level": "pro",
    "via": "web",
    "found": "2026-10-06",
-   "verified": "2026-11-01",
+   "verified": "2026-11-15",
    "status": "ok",
    "end": "2026-12-06",
    "venue": "Adidas Arena",
@@ -3958,6 +3958,62 @@
    "found": "2026-11-15",
    "verified": "2026-11-15",
    "status": "ok"
+  },
+  {
+   "time": null,
+   "rrule": null,
+   "venue": null,
+   "price": null,
+   "free": null,
+   "via": "web",
+   "found": "2026-11-15",
+   "verified": "2026-11-15",
+   "status": "ok",
+   "id": "audition-eat-danse-2027-inscriptions",
+   "type": "audition",
+   "title": "EAT 2027 (Diplôme d’État de professeur de danse) : inscriptions",
+   "summary": "Examen d’aptitude technique, porte d’entrée du DE de professeur de danse. Inscriptions dématérialisées, admissibilité sur dossier numérique (dont vidéo de la variation de fin de 2e cycle), puis admission en présentiel (Nanterre, RésoNAnces Bordeaux, Marseille…).",
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-18",
+   "deadline_label": "Inscriptions EAT 2027 (minuit)",
+   "city": null,
+   "region": "France",
+   "styles": [
+    "classique",
+    "contemporain",
+    "jazz"
+   ],
+   "level": "pre-pro",
+   "organizer": "Ministère de la Culture",
+   "url": "https://www.culture.gouv.fr/Thematiques/danse/Enseignement-formation-et-metiers/diplome-d-etat-de-professeur-de-danse-examen-d-aptitude-technique-eat"
+  },
+  {
+   "time": null,
+   "rrule": null,
+   "venue": null,
+   "price": null,
+   "free": null,
+   "via": "web",
+   "found": "2026-11-15",
+   "verified": "2026-11-15",
+   "status": "ok",
+   "id": "audition-ndt-1-saison-2026-2027",
+   "type": "audition",
+   "title": "Nederlands Dans Theater (NDT 1), audition privée",
+   "summary": "Candidatures pour NDT 1, audition privée sur invitation après dossier. Trois ans d’expérience pro minimum.",
+   "start": null,
+   "end": null,
+   "deadline": "2026-12-07",
+   "deadline_label": "Candidatures NDT 1 (18h CET)",
+   "city": "La Haye",
+   "region": "International",
+   "styles": [
+    "contemporain"
+   ],
+   "level": "pro",
+   "organizer": "Nederlands Dans Theater",
+   "url": "https://www.ndt.nl/audition-ndt-1/"
   }
  ]
 }
