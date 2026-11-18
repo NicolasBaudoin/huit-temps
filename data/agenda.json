@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
  "items": [
   {
@@ -4152,6 +4152,33 @@
    "via": "web",
    "found": "2026-11-16",
    "verified": "2026-11-16",
+   "status": "ok"
+  },
+  {
+   "id": "spectacle-witch-hunting-par-terre-niort-2026-12-01",
+   "type": "spectacle",
+   "title": "Witch Hunting (Anne Nguyen, Compagnie par Terre), Festival Temps Danse Hip-Hop",
+   "summary": "Pièce hip-hop intense d'Anne Nguyen (Compagnie par Terre, Paris) au Moulin du Roc, dans le cadre du Festival Temps Danse Hip-Hop.",
+   "start": "2026-12-01",
+   "end": null,
+   "time": "20h30",
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Niort",
+   "region": "Nouvelle-Aquitaine",
+   "venue": "Le Moulin du Roc, Scène nationale",
+   "styles": [
+    "hip-hop"
+   ],
+   "level": "tous",
+   "price": "Payant, billetterie du Moulin du Roc (tarif non précisé)",
+   "free": false,
+   "organizer": "Compagnie E.go / Moulin du Roc",
+   "url": "https://www.instagram.com/compagnie.ego/p/Df11gRMDcJB/",
+   "via": "insta",
+   "found": "2026-11-18",
+   "verified": "2026-11-18",
    "status": "ok"
   }
  ]
