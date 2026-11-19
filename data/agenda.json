@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
  "items": [
   {
@@ -461,7 +461,7 @@
    "url": "https://www.tickettailor.com/events/theroyalfamilydancecreweurope/2247552",
    "via": "web",
    "found": "2026-10-04",
-   "verified": "2026-10-30",
+   "verified": "2026-11-19",
    "status": "ok"
   },
   {
@@ -3484,7 +3484,7 @@
    "free": null,
    "via": "web",
    "found": "2026-11-10",
-   "verified": "2026-11-10",
+   "verified": "2026-11-19",
    "status": "ok",
    "id": "stage-claquettes-chant-village-de-la-danse-agnac-2026-12-05",
    "type": "stage",
@@ -4179,6 +4179,88 @@
    "via": "insta",
    "found": "2026-11-18",
    "verified": "2026-11-18",
+   "status": "ok"
+  },
+  {
+   "id": "stage-intensive-workshop-jordan-boury-lax-2026-11-23",
+   "type": "stage",
+   "title": "Intensive Workshop Jordan Boury (3h), LAX Studio",
+   "summary": "Workshop de 3h avec Jordan Boury au LAX Studio. Inscriptions ouvertes sur l application mobile du LAX Studio.",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "time": "12h30-15h30",
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Paris",
+   "region": "Île-de-France",
+   "venue": "LAX Studio",
+   "styles": [
+    "contemporain"
+   ],
+   "level": "tous",
+   "price": "non précisé",
+   "free": null,
+   "organizer": "LAX Studio",
+   "url": "https://www.instagram.com/lax_studio_events/reel/Df5CP-pMsBl/",
+   "via": "insta",
+   "found": "2026-11-19",
+   "verified": "2026-11-19",
+   "status": "ok"
+  },
+  {
+   "id": "actu-juste-debout-grande-finale-paris-2027-03-13",
+   "type": "actu",
+   "title": "Juste Debout, Grande Finale à Paris",
+   "summary": "Grande Finale annoncée les 13 et 14 mars 2027 à Paris. Les gagnants des qualifications du World Tour (dont Rio le 4 décembre 2026) y gagnent leur place.",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "time": null,
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Paris",
+   "region": "Île-de-France",
+   "venue": "non précisé",
+   "styles": [
+    "hip-hop",
+    "street"
+   ],
+   "level": "pro",
+   "price": "non précisé",
+   "free": null,
+   "organizer": "Juste Debout",
+   "url": "https://www.instagram.com/justedebout_officiel/p/Df5uRLKje91/",
+   "via": "insta",
+   "found": "2026-11-19",
+   "verified": "2026-11-19",
+   "status": "ok"
+  },
+  {
+   "id": "stage-atelier-bm-cie-moliets-2026-11-28",
+   "type": "stage",
+   "title": "Atelier d'expression corporelle avec la B&M Cie (Mois de la danse)",
+   "summary": "Initiation à l'expression corporelle tous niveaux, suivie d'une démonstration et d'un échange avec les danseurs pros de la B&M Cie. Gratuit dès 12 ans, inscription par mail ou au 05 58 48 54 19.",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "18h",
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Moliets-et-Maâ",
+   "region": "Nouvelle-Aquitaine",
+   "venue": null,
+   "styles": [
+    "contemporain"
+   ],
+   "level": "tous",
+   "price": "Gratuit",
+   "free": true,
+   "organizer": "B&M Cie / Mois de la danse (Landes)",
+   "url": "https://www.tourismelandes.com/?p=779903",
+   "via": "web",
+   "found": "2026-11-19",
+   "verified": "2026-11-19",
    "status": "ok"
   }
  ]
