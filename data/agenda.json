@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19",
+ "updated": "2026-11-21",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
  "items": [
   {
@@ -3881,15 +3881,15 @@
    "deadline_label": "Confirmer ses disponibilités par mail avant les répétitions du 21 novembre",
    "via": "insta",
    "found": "2026-11-14",
-   "verified": "2026-11-14",
+   "verified": "2026-11-21",
    "status": "ok",
    "id": "actu-bal-a-skorp-bayonne-2026-11-27",
-   "type": "actu",
+   "type": "spectacle",
    "title": "Le Bal à Skorp, appel à participation (Musée Bonnat-Helleu)",
-   "summary": "Appel à danseurs tous styles pour une chorégraphie d'ouverture puis un bal (danse collective, freestyle, battle exhibition) pour le 1er anniversaire de la réouverture du musée. Répétitions à Biarritz les 21 et 22 novembre (15h-18h, Studio Kléber). Candidature par mail à Skorp'eidon.",
+   "summary": "Bal du 1er anniversaire du musée : performances, battle, DJ set et moments participatifs, ouvert à tous les styles et niveaux. Réservation de la place sur le site de la Ville de Bayonne (@bayonnemaville).",
    "start": "2026-11-27",
    "end": "2026-11-27",
-   "time": "Chorégraphie 19h, bal 19h-21h",
+   "time": "19h-21h",
    "city": "Bayonne",
    "region": "Nouvelle-Aquitaine",
    "venue": "Musée Bonnat-Helleu",
@@ -3902,7 +3902,7 @@
    "price": null,
    "free": null,
    "organizer": "Cie Skorp'eidon",
-   "url": "https://www.instagram.com/skorpiondancer/p/DfsJnG4iAGx/"
+   "url": "https://www.instagram.com/skorpiondancer/p/Df-ODQSI7jS/"
   },
   {
    "id": "training-gecko-treening-sien-2026-12-11",
@@ -4261,6 +4261,61 @@
    "via": "web",
    "found": "2026-11-19",
    "verified": "2026-11-19",
+   "status": "ok"
+  },
+  {
+   "id": "battle-intersquad-finale-2026-11-28",
+   "type": "battle",
+   "title": "Battle Inter-Squad, grande finale",
+   "summary": "Finale du battle InterSquad (breaking), organisée avec Last Squad et AFV.",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": null,
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": null,
+   "region": "Nouvelle-Aquitaine",
+   "venue": "Gymnase du Bourg",
+   "styles": [
+    "breaking"
+   ],
+   "level": "tous",
+   "price": null,
+   "free": null,
+   "organizer": "InterSquad / Last Squad",
+   "url": "https://www.instagram.com/intersquad33/p/Df5IGtio9OE/",
+   "via": "insta",
+   "found": "2026-11-21",
+   "verified": "2026-11-21",
+   "status": "ok"
+  },
+  {
+   "id": "spectacle-hi-fu-mi-niort-2026-12-02",
+   "type": "spectacle",
+   "title": "Hi-Fu-Mi (Anthony Égéa, Compagnie Rêvolution), Festival Temps Danse Hip-Hop",
+   "summary": "Spectacle hip-hop et contemporain autour des jeux de cour de récréation, en famille dès 6 ans.",
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "time": "15h",
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "city": "Niort",
+   "region": "Nouvelle-Aquitaine",
+   "venue": "Le Moulin du Roc",
+   "styles": [
+    "hip-hop",
+    "contemporain"
+   ],
+   "level": "tous",
+   "price": "Payant, billetterie du Moulin du Roc",
+   "free": false,
+   "organizer": "Cie E.go / Compagnie Rêvolution",
+   "url": "https://www.instagram.com/compagnie.ego/p/Df7xZqYDdrk/",
+   "via": "insta",
+   "found": "2026-11-21",
+   "verified": "2026-11-21",
    "status": "ok"
   }
  ]
