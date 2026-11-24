@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "schema": "Chaque item : id (slug unique type-titre-date), type (battle|audition|stage|training|spectacle|actu), title, summary, start (AAAA-MM-JJ ou null), end (AAAA-MM-JJ ou null), time (texte libre ou null), rrule (règle iCal ou null, pour les rendez-vous réguliers), deadline (AAAA-MM-JJ ou null), deadline_label (texte ou null), city, region, venue, styles (liste), level (pro|pre-pro|amateur|tous ou null), price (texte ou null), free (true|false|null), organizer, url (lien source), via (web|insta), found (date de découverte), verified (date de dernière vérification), status (ok|annule|reporte), image (facultatif : chemin d une affiche dans assets/evenements/, seulement si l organisateur a autorisé sa diffusion).",
  "items": [
   {
@@ -4510,6 +4510,85 @@
    "found": "2026-11-23",
    "verified": "2026-11-23",
    "status": "ok"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": null,
+   "price": null,
+   "free": null,
+   "level": null,
+   "via": "web",
+   "found": "2026-11-24",
+   "verified": "2026-11-24",
+   "status": "ok",
+   "organizer": null,
+   "id": "spectacle-sol-invictus-koubi-belfort-2026-12-17",
+   "type": "spectacle",
+   "title": "Hervé Koubi, « Sol Invictus »",
+   "summary": "Création pour 18 danseurs au GRRRANIT.",
+   "start": "2026-12-17",
+   "end": "2026-12-18",
+   "city": "Belfort",
+   "region": "Bourgogne-Franche-Comté",
+   "venue": "GRRRANIT",
+   "styles": [
+    "contemporain"
+   ],
+   "url": "https://europeantheatre.eu/news/sol-invictus"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": null,
+   "price": null,
+   "free": null,
+   "level": null,
+   "via": "web",
+   "found": "2026-11-24",
+   "verified": "2026-11-24",
+   "status": "ok",
+   "organizer": null,
+   "id": "spectacle-rap-and-classic-metz-2026-12-16",
+   "type": "spectacle",
+   "title": "Rap & Classic (EAST Phare)",
+   "summary": "Orchestre symphonique, choeur, rappeurs et danseurs hip-hop du territoire, création du Conservatoire de Metz.",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "city": "Metz",
+   "region": "Grand Est",
+   "venue": null,
+   "styles": [
+    "hip-hop"
+   ],
+   "url": "https://www.eterritoire.fr/tout/hip (moselle)"
+  },
+  {
+   "rrule": null,
+   "deadline": null,
+   "deadline_label": null,
+   "time": null,
+   "price": null,
+   "free": null,
+   "level": null,
+   "via": "web",
+   "found": "2026-11-24",
+   "verified": "2026-11-24",
+   "status": "ok",
+   "organizer": null,
+   "id": "spectacle-art-pop-besancon-2026-12-03",
+   "type": "spectacle",
+   "title": "Art'Pop, spectacle danse et chant (10 ans)",
+   "summary": "Spectacle de danse et de chant de la compagnie Art'Pop au Grand Kursaal.",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "city": "Besançon",
+   "region": "Bourgogne-Franche-Comté",
+   "venue": "Grand Kursaal",
+   "styles": [],
+   "url": "https://www.macommune.info/agenda/euphoria-spectacle-de-danse-et-chant-a-besancon/"
   }
  ]
 }
